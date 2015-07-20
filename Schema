@@ -1,11 +1,11 @@
 
 Employees (
 
-Employement ID INT PRIMARY KEY,
+Employement_ID INT PRIMARY KEY,
 Salary DECIMAL(4,2),
 Name CHAR(25),
 Position CHAR(10),
-Shift time VARCHAR,
+Shift_time VARCHAR,
 FT/PT CHAR(2),
 Department CHAR(10) 
 )
@@ -14,35 +14,35 @@ Financial Package (
 
 PackageID INT PRIMARY KEY,
 Work-Study BOOLEAN,
-Grants Amount DECIMAL(5,2),
-Scholarships Amount DECIMAL(5,2),
-Loans Amount DECIMAL(5,2),
+Grants_Amount DECIMAL(5,2),
+Scholarships_Amount DECIMAL(5,2),
+Loans_Amount DECIMAL(5,2),
 UNIQUE KEY(Loans Amount, Grants Amount, Scholarships Amount)
 )
 
 Colleges (
 Name CHAR(25) PRIMARY KEY,
-# Undergraduates INT,
-# Graduates INT,
-# Faculty Members INT, 
-# PhD Candidates INT,
-# Students INT
+#Undergraduates INT,
+#Graduates INT,
+#Faculty Members INT, 
+#PhD Candidates INT,
+#Students INT
 )
 
 Student(
-UIN:			INT PRIMARY KEY,
-Major:			VARCHAR(20),
-Name:			VARCHAR(25),
-Completed HRS:	INT,
-GPA:			FLOAT,
-Classification	CHAR(2),
+UIN			INT PRIMARY KEY,
+Major			VARCHAR(20),
+Name			VARCHAR(25),
+Completed_HRS	INT,
+GPA			FLOAT,
+Classification	CHAR(2)
 )
 
 Professtional Society(
 Societyname     VARCHAR(45) PRIMARY KEY,
 Participants		INT,
 ParentOrganization	VARCHAR(40)
-);
+)
 
 Professional Society Member(
 HomeAddress		VARCHAR(30) PRIMARY KEY,
@@ -50,4 +50,4 @@ Position		VARCHAR(10) PRIMARY KEY,
 MembberName		VARCHAR(20) PRIMARY KEY,
 Membersince		DATE,
 Officer			BOOL
-);
+)
