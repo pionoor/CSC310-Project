@@ -39,7 +39,7 @@ Classification	CHAR(2),
 )
 
 Professtional Society(
-Societyname   VARCHAR(45) PRIMARY KEY,
+Societyname     VARCHAR(45) PRIMARY KEY,
 Participants		INT,
 ParentOrganization	VARCHAR(40)
 );
