@@ -5,7 +5,7 @@ Employement_ID INT PRIMARY KEY,
 Salary DECIMAL(4,2),
 Name CHAR(25),
 Position CHAR(10),
-Shift_time VARCHAR,
+Shifttime VARCHAR,
 FT/PT CHAR(2),
 Department CHAR(10) 
 )
@@ -13,10 +13,10 @@ Department CHAR(10)
 Financial Package (
 
 PackageID INT PRIMARY KEY,
-Work-Study BOOLEAN,
-Grants_Amount DECIMAL(5,2),
-Scholarships_Amount DECIMAL(5,2),
-Loans_Amount DECIMAL(5,2),
+WorkStudy BOOLEAN,
+GrantsAmount DECIMAL(5,2),
+ScholarshipsAmount DECIMAL(5,2),
+LoansAmount DECIMAL(5,2),
 UNIQUE KEY(Loans Amount, Grants Amount, Scholarships Amount)
 )
 
@@ -24,8 +24,8 @@ Colleges (
 Name CHAR(25) PRIMARY KEY,
 #Undergraduates INT,
 #Graduates INT,
-#Faculty Members INT, 
-#PhD Candidates INT,
+#FacultyMembers INT, 
+#PhDCandidates INT,
 #Students INT
 )
 
@@ -33,7 +33,7 @@ Student(
 UIN			INT PRIMARY KEY,
 Major			VARCHAR(20),
 Name			VARCHAR(25),
-Completed_HRS	INT,
+CompletedHRS	INT,
 GPA			FLOAT,
 Classification	CHAR(2)
 )
