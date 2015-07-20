@@ -28,3 +28,26 @@ Name CHAR(25) PRIMARY KEY,
 # PhD Candidates INT,
 # Students INT
 )
+
+Student(
+UIN:			INT PRIMARY KEY,
+Major:			VARCHAR(20),
+Name:			VARCHAR(25),
+Completed HRS:	INT,
+GPA:			FLOAT,
+Classification	CHAR(2),
+)
+
+Professtional Society(
+Societyname			VARCHAR(45) PRIMARY KEY,
+Participants		INT,
+ParentOrganization	VARCHAR(40)
+);
+
+Professional Society Member(
+HomeAddress		VARCHAR(30) PRIMARY KEY,
+Position		VARCHAR(10) PRIMARY KEY,
+MembberName		VARCHAR(20) PRIMARY KEY,
+Membersince		DATE,
+Officer			BOOL
+);
