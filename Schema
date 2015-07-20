@@ -1,1 +1,30 @@
 
+Employees (
+
+Employement ID INT PRIMARY KEY,
+Salary DECIMAL(4,2),
+Name CHAR(25),
+Position CHAR(10),
+Shift time VARCHAR,
+FT/PT CHAR(2),
+Department CHAR(10) 
+)
+
+Financial Package (
+
+PackageID INT PRIMARY KEY,
+Work-Study BOOLEAN,
+Grants Amount DECIMAL(5,2),
+Scholarships Amount DECIMAL(5,2),
+Loans Amount DECIMAL(5,2),
+UNIQUE KEY(Loans Amount, Grants Amount, Scholarships Amount)
+)
+
+Colleges (
+Name CHAR(25) PRIMARY KEY,
+# Undergraduates INT,
+# Graduates INT,
+# Faculty Members INT, 
+# PhD Candidates INT,
+# Students INT
+)
