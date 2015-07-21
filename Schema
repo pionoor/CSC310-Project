@@ -7,7 +7,7 @@ Name CHAR(25),
 Position CHAR(10)
 );
 
-Financial Package (
+FinancialPackage (
 
 PackageID INT PRIMARY KEY,
 TotalAwardAmount INT
@@ -26,13 +26,13 @@ Name			VARCHAR(25),
 CompletedHRS	INT,
 )
 
-Professtional Society(
+ProfesstionalSociety(
 Societyname     VARCHAR(45) PRIMARY KEY,
 Participants		INT,
 ParentOrganization	VARCHAR(40)
 )
 
-Professional Society Member(
+ProfessionalSociety Member(
 HomeAddress		VARCHAR(30) PRIMARY KEY,
 Position		VARCHAR(10) PRIMARY KEY,
 MemberName		VARCHAR(20) PRIMARY KEY,
