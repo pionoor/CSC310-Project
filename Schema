@@ -4,11 +4,8 @@ Employees (
 Employement_ID INT PRIMARY KEY,
 Salary DECIMAL(4,2),
 Name CHAR(25),
-Position CHAR(10),
-Shifttime VARCHAR,
-FT/PT CHAR(2),
-Department CHAR(10) 
-)
+Position CHAR(10)
+);
 
 Financial Package (
 
