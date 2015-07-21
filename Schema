@@ -15,8 +15,8 @@ TotalAwardAmount INT
 
 Colleges (
 Name CHAR(25) PRIMARY KEY,
-#FacultyMembers INT, 
-#Students INT
+NumFacultyMembers INT, 
+NumStudents INT
 )
 
 Student(
