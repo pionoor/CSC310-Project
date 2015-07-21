@@ -36,5 +36,6 @@ ProfessionalSocietyMember(
 HomeAddress		VARCHAR(30),
 Position		VARCHAR(10),
 MemberName		VARCHAR(20),
-Membersince		DATE
+MemberSince		DATE,
+PRIMARY KEY (HomeAddress, Position, MemberName)
 )
