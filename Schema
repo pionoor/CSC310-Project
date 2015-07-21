@@ -39,3 +39,35 @@ MemberName		VARCHAR(20),
 MemberSince		DATE,
 PRIMARY KEY (HomeAddress, Position, MemberName)
 )
+
+Affects(
+Employment_ID INT,
+PackageID INT
+)
+
+Employed(
+Employment_ID INT,
+UIN  INT
+)
+
+Recieves(
+PackageID INT,
+UIN INT
+)
+
+Enrolled(
+UIN INT,
+Name CHAR(25)
+)
+
+Affiliated(
+Name CHAR(25),
+Societyname VARCHAR(45)
+)
+
+MemberOf(
+Societyname VARCHAR(45),
+HomeAddress VARCHAR(30),
+MemberName VARCHAR(20),
+Position VARCHAR(10)
+)
