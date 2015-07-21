@@ -32,7 +32,7 @@ Participants		INT,
 ParentOrganization	VARCHAR(40)
 )
 
-ProfessionalSociety Member(
+ProfessionalSocietyMember(
 HomeAddress		VARCHAR(30) PRIMARY KEY,
 Position		VARCHAR(10) PRIMARY KEY,
 MemberName		VARCHAR(20) PRIMARY KEY,
