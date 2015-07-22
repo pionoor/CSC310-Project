@@ -4,7 +4,7 @@ Employees (
 Employement_ID INT PRIMARY KEY,
 Salary DECIMAL(4,2),
 Name CHAR(25),
-Position CHAR(10)
+Position CHAR(10),
 StudentUIN INT NOT NULL FOREIGN KEY REFERENCES Student(UIN)
 );
 
@@ -32,7 +32,8 @@ College CHAR(25) NOT NULL REFERENCES Colleges(Name)
 ProfesstionalSociety(
 Societyname     VARCHAR(45) PRIMARY KEY,
 Participants		INT,
-ParentOrganization	VARCHAR(40)
+ParentOrganization	VARCHAR(40),
+College CHAR(25) NOT NULL REFERENCES Colleges(Name) 
 )
 
 ProfessionalSocietyMember(
@@ -40,7 +41,8 @@ HomeAddress		VARCHAR(30),
 Position		VARCHAR(10),
 MemberName		VARCHAR(20),
 MemberSince		DATE,
-PRIMARY KEY (HomeAddress, Position, MemberName)
+PRIMARY KEY (HomeAddress, Position, MemberName),
+Professionalsociety CHAR(25) NOT NULL REFERENCES ProfessionalSociety(Societyname)
 )
 
 Affects(
