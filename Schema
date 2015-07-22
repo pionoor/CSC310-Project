@@ -5,7 +5,7 @@ Employement_ID INT PRIMARY KEY,
 Salary DECIMAL(4,2),
 Name CHAR(25),
 Position CHAR(10)
-StudentUIN INT FOREIGN KEY REFERENCES Student(UIN)
+StudentUIN INT NOT NULL FOREIGN KEY REFERENCES Student(UIN)
 );
 
 FinancialPackage (
