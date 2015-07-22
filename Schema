@@ -5,6 +5,7 @@ Employement_ID INT PRIMARY KEY,
 Salary DECIMAL(4,2),
 Name CHAR(25),
 Position CHAR(10)
+UIN INT REFRENCES Student(UIN)
 );
 
 FinancialPackage (
