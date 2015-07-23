@@ -1,0 +1,43 @@
+
+mysql> source ~/createTable.sql
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| pionoor-310project |
++--------------------+
+2 rows in set (0.00 sec)
+
+mysql> use pionoor-310project
+Database changed
+mysql> show tables
+    -> ;
++------------------------------+
+| Tables_in_pionoor-310project |
++------------------------------+
+| Colleges                     |
+| Employees                    |
+| FinancialPackage             |
+| ProfessionalSocietyMember    |
+| ProfesstionalSociety         |
+| Student                      |
++------------------------------+
+6 rows in set (0.01 sec)
+
