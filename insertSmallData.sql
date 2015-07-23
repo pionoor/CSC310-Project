@@ -1,4 +1,4 @@
-insertSmallData.sql
+USE pionoor-310project;
 
 INSERT INTO Employees (Employement_ID, Salary, Name, 
 		Position, StudentUIN)
@@ -29,19 +29,26 @@ VALUES
 INSERT INTO Student(UIN, Major, Name, CompletedHRS, 
 		FinancialAidPackageID, College)
 VALUES 
-		(22465, 'Computer Science', Jim Dawson, 93, 12000.00, 'Dwight Look College of Engineering'),
+		(22465, 'Computer Science', 'Jim Dawson', 93, 12000.00, 'Dwight Look College of Engineering'),
 		(19475, 'Anthropology',	'Steve Hickson', 62, 11546.00, 'College of Liberal Arts'),
 		(21084, 'Mathematics', 'Taylor Riggs', 115, 10600.00, 'College of Science'),
 		(20897, 'Accounting', 'Alice Bridges', 95, 5430.00, 'Mays Business School'),
 		(20804, 'Biochemistry', 'Cooper Wilson', 35, 7480.00, 'College of Agriculture & Life Science');
 		
 INSERT INTO ProfessionalSociety(SocietyName, Participants, ParentOrganization, College)
-VALUES ();
+VALUES 
+		('Texas A&M Computing Society', 41, 'IEEE', 'Dwight Look College of Engineering')
+		('Alpha Pi Mu', 54, 'American Mathematical Society', 'College of Science')
+		('Sigma Beta Sigma', 33, 'Texas Society of CPA', 'Mays Business School')
+		('Beta Kappa Phi', 54, 'Association of Future Veteranarians', 'College of Agriculture & Life Science')
+		('Sigma Alpha Pi', 6, 'The National Society of Leadership and Success', 'College of Liberal Arts');
 
 INSERT INTO ProfessionalSocietyMember(HomeAddress, Position, MemberName, MemberSince, ProfessionalSociety)
 VALUES 
-		('2213 Plum St', 'member', 'Taylor Riggs', 2013, ),
-		('532 W Natal St', 'president', 'Alice Bridges', 2015, ),
-		('3002 Larchmont', 'member', 'Cooper Wilson' 2014, ),
-		('4027 N 3rd St', 'vice president', 'Marcus Aurelius', 2012, )
-		('3570 S Las Vegas Blvd', 'secretary', 'Julius Ceasar', 2013, );
+		('2213 Plum St', 'member', 'Taylor Riggs', 2013, 'Alpha Pi Mu'),
+		('532 W Natal St', 'president', 'Alice Bridges', 2015, 'Sigma Beta Sigma' ),
+		('3002 Larchmont', 'member', 'Cooper Wilson' 2014, 'Beta Kappa Phi'),
+		('4027 N 3rd St', 'vice president', 'Marcus Aurelius', 2012, 'Sigma Alpha Pi')
+		('3570 S Las Vegas Blvd', 'secretary', 'Julius Ceasar', 2013, 'Sigma Alpha Pi');
+		
+		
