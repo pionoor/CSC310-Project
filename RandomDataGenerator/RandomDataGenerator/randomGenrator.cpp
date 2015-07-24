@@ -15,17 +15,19 @@
 using namespace std;
 
 
-string radomString(int length)
+string radomString(int length )
 {
-    static const char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    int strLen = sizeof(alphabet)-1;
-    char genRandom;
-    string str;
-    for(int i=0; i<length; i++)
+    auto randchar = []() -> char
     {
-        genRandom = alphabet[rand()%strLen];
-        str += genRandom;
-    }
+        const char charset[] =
+        "0123456789"
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        "abcdefghijklmnopqrstuvwxyz";
+        const int max_index = (sizeof(charset) - 1);
+        return charset[ rand() % max_index ];
+    };
+    std::string str(length,0);
+    std::generate_n( str.begin(), length, randchar );
     return str;
 }
 
@@ -38,8 +40,16 @@ float randomFloat(int length){
     return f;
 }
 
+string randomDate(){
+    //(rand() % range) + min;
+    int randomYear = (rand() % 66) + 1950;
+    int randomMonth = (rand() % 11) + 10;
+    int randomDay = (rand() % 29) + 10;
+    return string(to_string(randomYear) + '-' + to_string(randomMonth) + '-' + to_string(randomDay));
+}
 int main()
 {
+    int UniqueNumCounter;
     string input;
     int numRows;
     int numColumns;
@@ -61,13 +71,15 @@ int main()
         columnLength.push_back(atoi(input.c_str()));
     }
     
-    myfile.open ("random.txt");
-    
+    myfile.open ("ProfessionalSocietyMembers.txt");
+    UniqueNumCounter = 0;
+
     for(auto i = 0; i < numColumns; i++)
         
     {
-        
+
         for (auto j = 0; j < numRows; j++) {
+
             switch (columnType[j]) {
                 case 'i':
                     myfile << randomInt(columnLength[j]);
@@ -75,10 +87,23 @@ int main()
                     
                 case 'c':
                     myfile << radomString(columnLength[j]);
+
                     break;
                     
                 case 'f':
                     myfile << randomFloat(columnLength[j]);
+
+                    break;
+                    
+                case 'u':
+                    myfile << UniqueNumCounter++;
+
+                    break;
+                    
+                    
+                case 'd':
+                    myfile << randomDate();
+                    
                     break;
                     
                 default:
@@ -87,11 +112,15 @@ int main()
 
             if (j == numRows-1) {
                 myfile <<endl;
+
                 continue;
             }
             myfile <<'\t';
 
         }
+       /* if (i == numColumns-2) {
+            UniqueNumCounter = 0;
+        }*/
     }
     
     myfile.close();
