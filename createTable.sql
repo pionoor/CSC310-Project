@@ -39,7 +39,7 @@ FOREIGN KEY(StudentUIN)
 );
 
 
-CREATE TABLE ProfesstionalSociety(
+CREATE TABLE ProfessionalSociety(
 Societyname     VARCHAR(45) PRIMARY KEY,
 Participants		INT,
 ParentOrganization	VARCHAR(40),
