@@ -1,14 +1,7 @@
+
+CREATE DATABASE `pionoor-310project`;
 USE pionoor-310project;
 
-
-CREATE TABLE Employees (
-
-Employement_ID INT PRIMARY KEY,
-Salary DECIMAL(4,2),
-Name CHAR(25),
-Position CHAR(10),
-StudentUIN INT NOT NULL FOREIGN KEY REFERENCES Student(UIN)
-);
 
 CREATE TABLE FinancialPackage (
 
@@ -27,9 +20,24 @@ UIN			INT PRIMARY KEY,
 Major			VARCHAR(20),
 Name			VARCHAR(25),
 CompletedHRS	INT,
-FinancialAidPackageID INT NOT NULL FOREIGN KEY REFERENCES FinancialPackage(PackageID),
+FinancialAidPackageID INT NOT NULL,
+ FOREIGN KEY(FinancialAidPackageID) REFERENCES 
+FinancialPackage(PackageID),
 College CHAR(25) NOT NULL REFERENCES Colleges(Name) 
 );
+
+
+CREATE TABLE Employees (
+
+Employement_ID INT PRIMARY KEY,
+Salary DECIMAL(4,2),
+Name CHAR(25),
+Position CHAR(10),
+StudentUIN INT NOT NULL,
+FOREIGN KEY(StudentUIN)
+ REFERENCES Student(UIN)
+);
+
 
 CREATE TABLE ProfesstionalSociety(
 Societyname     VARCHAR(45) PRIMARY KEY,
