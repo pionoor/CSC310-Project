@@ -1,7 +1,4 @@
-
-CREATE DATABASE `pionoor-310project`;
-USE pionoor-310project;
-
+--using ambago-db1;
 
 CREATE TABLE FinancialPackage (
 
@@ -9,8 +6,8 @@ PackageID INT PRIMARY KEY,
 TotalAwardAmount INT
 );
 
-CREATE TABLE Colleges (
-Name CHAR(25) PRIMARY KEY,
+CREATE TABLE College (
+Name CHAR(50) PRIMARY KEY,
 NumFacultyMembers INT, 
 NumStudents INT
 );
@@ -23,33 +20,30 @@ CompletedHRS	INT,
 FinancialAidPackageID INT NOT NULL,
  FOREIGN KEY(FinancialAidPackageID) REFERENCES 
 FinancialPackage(PackageID),
-College CHAR(25) NOT NULL REFERENCES Colleges(Name) 
+College CHAR(50) NOT NULL REFERENCES Colleges(Name) 
 );
 
-
-CREATE TABLE Employees (
-
+CREATE TABLE Employee (
 Employement_ID INT PRIMARY KEY,
 Salary DECIMAL(4,2),
 Name CHAR(25),
-Position CHAR(10),
+Position CHAR(20),
 StudentUIN INT NOT NULL,
 FOREIGN KEY(StudentUIN)
  REFERENCES Student(UIN)
 );
 
-
 CREATE TABLE ProfessionalSociety(
 Societyname     VARCHAR(45) PRIMARY KEY,
 Participants		INT,
-ParentOrganization	VARCHAR(40),
-College CHAR(25) NOT NULL REFERENCES Colleges(Name) 
+ParentOrganization	VARCHAR(50),
+College CHAR(50) NOT NULL REFERENCES Colleges(Name) 
 );
 
 CREATE TABLE ProfessionalSocietyMember(
 HomeAddress		VARCHAR(30),
-Position		VARCHAR(10),
-MemberName		VARCHAR(20),
+Position		VARCHAR(20),
+MemberName		VARCHAR(25),
 MemberSince		DATE,
 PRIMARY KEY (HomeAddress, Position, MemberName),
 Professionalsociety CHAR(25) NOT NULL REFERENCES ProfessionalSociety(Societyname)

@@ -1,0 +1,18 @@
+LOAD DATA LOCAL INFILE 'FinancialPackage.txt'
+INTO TABLE FinancialPackage COLUMNS TERMINATED BY '/t';
+
+LOAD DATA LOCAL INFILE 'College.txt'
+INTO TABLE College COLUMNS TERMINATED BY '/t';
+
+LOAD DATA LOCAL INFILE 'Student.txt'
+INTO TABLE Student COLUMNS TERMINATED BY '/t';
+
+LOAD DATA LOCAL INFILE 'Employee.txt'
+INTO TABLE Employee COLUMNS TERMINATED BY '/t';
+
+LOAD DATA LOCAL INFILE 'ProfessionalSociety.txt'
+INTO TABLE ProfessionalSociety COLUMNS TERMINATED BY '/t';
+
+LOAD DATA LOCAL INFILE 'ProfessionalSocietyMember.txt'
+INTO TABLE ProfessionalSocietyMember COLUMNS TERMINATED BY '/t';
+
