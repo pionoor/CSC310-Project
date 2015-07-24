@@ -43,9 +43,9 @@ float randomFloat(int length){
 string randomDate(){
     //(rand() % range) + min;
     int randomYear = (rand() % 66) + 1950;
-    int randomMonth = (rand() % 11) + 10;
-    int randomDay = (rand() % 29) + 10;
-    return string(to_string(randomYear) + '-' + to_string(randomMonth) + '-' + to_string(randomDay));
+    vector<string> randomMonth = {"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"};
+    vector<string> randomDay = {"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"};
+    return string(to_string(randomYear) + '-' + randomMonth[(rand() % randomMonth.size())] + '-' + randomDay[(rand() % randomDay.size())]);
 }
 int main()
 {
