@@ -71,7 +71,7 @@ int main()
         columnLength.push_back(atoi(input.c_str()));
     }
     
-    myfile.open ("ProfessionalSocietyMembers.txt");
+    myfile.open ("ProfessionalSocietyMember.txt");
     UniqueNumCounter = 0;
 
     for(auto i = 0; i < numColumns; i++)
@@ -81,26 +81,27 @@ int main()
         for (auto j = 0; j < numRows; j++) {
 
             switch (columnType[j]) {
+                //integer
                 case 'i':
                     myfile << randomInt(columnLength[j]);
                     break;
-                    
+                //char
                 case 'c':
                     myfile << radomString(columnLength[j]);
 
                     break;
-                    
+                //float
                 case 'f':
                     myfile << randomFloat(columnLength[j]);
 
                     break;
-                    
+                //unique integer
                 case 'u':
                     myfile << UniqueNumCounter++;
 
                     break;
                     
-                    
+                //date
                 case 'd':
                     myfile << randomDate();
                     
