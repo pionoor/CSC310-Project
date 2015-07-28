@@ -1,0 +1,3 @@
+explanation.txt
+
+The program used to create large files of records for each of the relations was made using Xcode. When this program runs, it prompts the user for the number of attributes and tuples for the table. The user inputs these values and afterwards specifies the data type for each attribute. While doing so, the user also mentions primary/unique keys if there are any. Then using a random generator with certain constraints applied to it, the program generates values for all the attributes and saves it to a text file that is used for the database.
