@@ -1,0 +1,306 @@
+Query OK, 6 rows affected (0.06 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.02 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Database changed
++-----------+------------------+
+| PackageID | TotalAwardAmount |
++-----------+------------------+
+|      1946 |            10600 |
+|      3379 |             5430 |
+|      4684 |            11546 |
+|      5061 |             7480 |
+|      6445 |            12000 |
++-----------+------------------+
+5 rows in set (0.00 sec)
+
++---------------------------------------+-------------------+-------------+
+| Name                                  | NumFacultyMembers | NumStudents |
++---------------------------------------+-------------------+-------------+
+| College of Agriculture & Life Science |               643 |        7853 |
+| College of Liberal Arts               |               780 |        7669 |
+| College of Science                    |               734 |        3701 |
+| Dwight Look College of Engineering    |               793 |       13947 |
+| Mays Business School                  |               264 |        5914 |
++---------------------------------------+-------------------+-------------+
+5 rows in set (0.00 sec)
+
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+| UIN   | Major            | Name          | CompletedHRS | FinancialAidPackageID | College                               |
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+| 19475 | Anthropology     | Steve Hickson |           62 |                  4684 | College of Liberal Arts               |
+| 20804 | Biochemistry     | Cooper Wilson |           35 |                  5061 | College of Agriculture & Life Science |
+| 20897 | Accounting       | Alice Bridges |           95 |                  3379 | Mays Business School                  |
+| 21084 | Mathematics      | Taylor Riggs  |          115 |                  1946 | College of Science                    |
+| 22465 | Computer Science | Jim Dawson    |           93 |                  6445 | Dwight Look College of Engineering    |
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+5 rows in set (0.00 sec)
+
++----------------+--------+---------------+--------------------+------------+
+| Employement_ID | Salary | Name          | Position           | StudentUIN |
++----------------+--------+---------------+--------------------+------------+
+|           1645 | 12.00  | Cooper Wilson | Student Worker III |      20804 |
+|           2054 | 12.00  | Steve Hickson | Student Worker III |      19475 |
+|           4387 | 11.00  | Alice Bridges | Student Worker II  |      20897 |
+|           5046 | 9.00   | Jim Dawson    | Student Worker I   |      22465 |
+|           5422 | 9.00   | Taylor Riggs  | Student Worker I   |      21084 |
++----------------+--------+---------------+--------------------+------------+
+5 rows in set (0.00 sec)
+
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+| Societyname                 | Participants | ParentOrganization                             | College                               |
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+| Alpha Pi Mu                 |           54 | American Mathematical Society                  | College of Science                    |
+| Beta Kappa Phi              |           54 | Association of Future Veteranarians            | College of Agriculture & Life Science |
+| Sigma Alpha Pi              |            6 | The National Society of Leadership and Success | College of Liberal Arts               |
+| Sigma Beta Sigma            |           33 | Texas Society of CPA                           | Mays Business School                  |
+| Texas A&M Computing Society |           41 | IEEE                                           | Dwight Look College of Engineering    |
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+5 rows in set (0.00 sec)
+
++-----------------------+----------------+-----------------+-------------+---------------------+
+| HomeAddress           | Position       | MemberName      | MemberSince | ProfessionalSociety |
++-----------------------+----------------+-----------------+-------------+---------------------+
+| 2213 Plum St          | member         | Taylor Riggs    | 2013-04-20  | Alpha Pi Mu         |
+| 3002 Larchmont        | member         | Cooper Wilson   | 3014-01-10  | Beta Kappa Phi      |
+| 3570 S Las Vegas Blvd | secretary      | Julius Ceasar   | 2013-10-30  | Sigma Alpha Pi      |
+| 4027 N 3rd St         | vice president | Marcus Aurelius | 2012-10-23  | Sigma Alpha Pi      |
+| 532 W Natal St        | president      | Alice Bridges   | 2015-03-15  | Sigma Beta Sigma    |
++-----------------------+----------------+-----------------+-------------+---------------------+
+5 rows in set (0.00 sec)
+
+Query OK, 6 rows affected (0.04 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Database changed
++-----------+------------------+
+| PackageID | TotalAwardAmount |
++-----------+------------------+
+|      1946 |            10600 |
+|      3379 |             5430 |
+|      4684 |            11546 |
+|      5061 |             7480 |
+|      6445 |            12000 |
++-----------+------------------+
+5 rows in set (0.00 sec)
+
++---------------------------------------+-------------------+-------------+
+| Name                                  | NumFacultyMembers | NumStudents |
++---------------------------------------+-------------------+-------------+
+| College of Agriculture & Life Science |               643 |        7853 |
+| College of Liberal Arts               |               780 |        7669 |
+| College of Science                    |               734 |        3701 |
+| Dwight Look College of Engineering    |               793 |       13947 |
+| Mays Business School                  |               264 |        5914 |
++---------------------------------------+-------------------+-------------+
+5 rows in set (0.00 sec)
+
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+| UIN   | Major            | Name          | CompletedHRS | FinancialAidPackageID | College                               |
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+| 19475 | Anthropology     | Steve Hickson |           62 |                  4684 | College of Liberal Arts               |
+| 20804 | Biochemistry     | Cooper Wilson |           35 |                  5061 | College of Agriculture & Life Science |
+| 20897 | Accounting       | Alice Bridges |           95 |                  3379 | Mays Business School                  |
+| 21084 | Mathematics      | Taylor Riggs  |          115 |                  1946 | College of Science                    |
+| 22465 | Computer Science | Jim Dawson    |           93 |                  6445 | Dwight Look College of Engineering    |
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+5 rows in set (0.00 sec)
+
++----------------+--------+---------------+--------------------+------------+
+| Employement_ID | Salary | Name          | Position           | StudentUIN |
++----------------+--------+---------------+--------------------+------------+
+|           1645 | 12.00  | Cooper Wilson | Student Worker III |      20804 |
+|           2054 | 12.00  | Steve Hickson | Student Worker III |      19475 |
+|           4387 | 11.00  | Alice Bridges | Student Worker II  |      20897 |
+|           5046 | 9.00   | Jim Dawson    | Student Worker I   |      22465 |
+|           5422 | 9.00   | Taylor Riggs  | Student Worker I   |      21084 |
++----------------+--------+---------------+--------------------+------------+
+5 rows in set (0.00 sec)
+
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+| Societyname                 | Participants | ParentOrganization                             | College                               |
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+| Alpha Pi Mu                 |           54 | American Mathematical Society                  | College of Science                    |
+| Beta Kappa Phi              |           54 | Association of Future Veteranarians            | College of Agriculture & Life Science |
+| Sigma Alpha Pi              |            6 | The National Society of Leadership and Success | College of Liberal Arts               |
+| Sigma Beta Sigma            |           33 | Texas Society of CPA                           | Mays Business School                  |
+| Texas A&M Computing Society |           41 | IEEE                                           | Dwight Look College of Engineering    |
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+5 rows in set (0.00 sec)
+
++-----------------------+----------------+-----------------+-------------+---------------------+
+| HomeAddress           | Position       | MemberName      | MemberSince | ProfessionalSociety |
++-----------------------+----------------+-----------------+-------------+---------------------+
+| 2213 Plum St          | member         | Taylor Riggs    | 2013-04-20  | Alpha Pi Mu         |
+| 3002 Larchmont        | member         | Cooper Wilson   | 3014-01-10  | Beta Kappa Phi      |
+| 3570 S Las Vegas Blvd | secretary      | Julius Ceasar   | 2013-10-30  | Sigma Alpha Pi      |
+| 4027 N 3rd St         | vice president | Marcus Aurelius | 2012-10-23  | Sigma Alpha Pi      |
+| 532 W Natal St        | president      | Alice Bridges   | 2015-03-15  | Sigma Beta Sigma    |
++-----------------------+----------------+-----------------+-------------+---------------------+
+5 rows in set (0.00 sec)
+
+Query OK, 6 rows affected (0.03 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Database changed
++-----------+------------------+
+| PackageID | TotalAwardAmount |
++-----------+------------------+
+|      1946 |            10600 |
+|      3379 |             5430 |
+|      4684 |            11546 |
+|      5061 |             7480 |
+|      6445 |            12000 |
++-----------+------------------+
+5 rows in set (0.00 sec)
+
++---------------------------------------+-------------------+-------------+
+| Name                                  | NumFacultyMembers | NumStudents |
++---------------------------------------+-------------------+-------------+
+| College of Agriculture & Life Science |               643 |        7853 |
+| College of Liberal Arts               |               780 |        7669 |
+| College of Science                    |               734 |        3701 |
+| Dwight Look College of Engineering    |               793 |       13947 |
+| Mays Business School                  |               264 |        5914 |
++---------------------------------------+-------------------+-------------+
+5 rows in set (0.00 sec)
+
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+| UIN   | Major            | Name          | CompletedHRS | FinancialAidPackageID | College                               |
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+| 19475 | Anthropology     | Steve Hickson |           62 |                  4684 | College of Liberal Arts               |
+| 20804 | Biochemistry     | Cooper Wilson |           35 |                  5061 | College of Agriculture & Life Science |
+| 20897 | Accounting       | Alice Bridges |           95 |                  3379 | Mays Business School                  |
+| 21084 | Mathematics      | Taylor Riggs  |          115 |                  1946 | College of Science                    |
+| 22465 | Computer Science | Jim Dawson    |           93 |                  6445 | Dwight Look College of Engineering    |
++-------+------------------+---------------+--------------+-----------------------+---------------------------------------+
+5 rows in set (0.00 sec)
+
++----------------+--------+---------------+--------------------+------------+
+| Employement_ID | Salary | Name          | Position           | StudentUIN |
++----------------+--------+---------------+--------------------+------------+
+|           1645 | 12.00  | Cooper Wilson | Student Worker III |      20804 |
+|           2054 | 12.00  | Steve Hickson | Student Worker III |      19475 |
+|           4387 | 11.00  | Alice Bridges | Student Worker II  |      20897 |
+|           5046 | 9.00   | Jim Dawson    | Student Worker I   |      22465 |
+|           5422 | 9.00   | Taylor Riggs  | Student Worker I   |      21084 |
++----------------+--------+---------------+--------------------+------------+
+5 rows in set (0.00 sec)
+
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+| Societyname                 | Participants | ParentOrganization                             | College                               |
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+| Alpha Pi Mu                 |           54 | American Mathematical Society                  | College of Science                    |
+| Beta Kappa Phi              |           54 | Association of Future Veteranarians            | College of Agriculture & Life Science |
+| Sigma Alpha Pi              |            6 | The National Society of Leadership and Success | College of Liberal Arts               |
+| Sigma Beta Sigma            |           33 | Texas Society of CPA                           | Mays Business School                  |
+| Texas A&M Computing Society |           41 | IEEE                                           | Dwight Look College of Engineering    |
++-----------------------------+--------------+------------------------------------------------+---------------------------------------+
+5 rows in set (0.00 sec)
+
++-----------------------+----------------+-----------------+-------------+---------------------+
+| HomeAddress           | Position       | MemberName      | MemberSince | ProfessionalSociety |
++-----------------------+----------------+-----------------+-------------+---------------------+
+| 2213 Plum St          | member         | Taylor Riggs    | 2013-04-20  | Alpha Pi Mu         |
+| 3002 Larchmont        | member         | Cooper Wilson   | 3014-01-10  | Beta Kappa Phi      |
+| 3570 S Las Vegas Blvd | secretary      | Julius Ceasar   | 2013-10-30  | Sigma Alpha Pi      |
+| 4027 N 3rd St         | vice president | Marcus Aurelius | 2012-10-23  | Sigma Alpha Pi      |
+| 532 W Natal St        | president      | Alice Bridges   | 2015-03-15  | Sigma Beta Sigma    |
++-----------------------+----------------+-----------------+-------------+---------------------+
+5 rows in set (0.00 sec)
+
