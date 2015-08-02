@@ -1,3 +1,5 @@
+--query.sql
+
 /* Theta Join */
 SELECT Student.name, FinancialPackage.TotalAwardAmount AS 'Financial Aid',
 Employee.salary

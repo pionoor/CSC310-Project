@@ -1,4 +1,6 @@
-/*These are just example commands. These should work for real data but may need to changed for synthetic large data */
+--update.sql
+
+/* Update and Deletion Commands*/
 UPDATE Student
 SET Major = 'Computer Engineering'
 WHERE Major = 'Computer Science';

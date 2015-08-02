@@ -1,0 +1,4199 @@
+Query OK, 6 rows affected (0.05 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++---------------+---------------+--------+
+| name          | Financial Aid | salary |
++---------------+---------------+--------+
+| Cooper Wilson |          7480 | 12.00  |
+| Steve Hickson |         11546 | 12.00  |
+| Alice Bridges |          5430 | 11.00  |
++---------------+---------------+--------+
+3 rows in set (0.00 sec)
+
++---------------+
+| Employed      |
++---------------+
+| Cooper Wilson |
+| Alice Bridges |
+| Taylor Riggs  |
++---------------+
+3 rows in set (0.00 sec)
+
++-------+---------------+
+| UIN   | Seniors       |
++-------+---------------+
+| 20897 | Alice Bridges |
+| 21084 | Taylor Riggs  |
+| 22465 | Jim Dawson    |
++-------+---------------+
+3 rows in set (0.00 sec)
+
++----------------------+
+| # ENG & SCI Students |
++----------------------+
+|                 7853 |
+|                 3701 |
+|                13947 |
++----------------------+
+3 rows in set (0.00 sec)
+
++---------------+
+| New Members   |
++---------------+
+| Taylor Riggs  |
+| Cooper Wilson |
++---------------+
+2 rows in set, 1 warning (0.00 sec)
+
++-----------------+
+| name            |
++-----------------+
+| Steve Hickson   |
+| Cooper Wilson   |
+| Alice Bridges   |
+| Taylor Riggs    |
+| Jim Dawson      |
+| Julius Ceasar   |
+| Marcus Aurelius |
++-----------------+
+7 rows in set (0.00 sec)
+
++--------------------+--------+
+| Position           | salary |
++--------------------+--------+
+| Student Worker I   | 9.00   |
+| Student Worker II  | 11.00  |
+| Student Worker III | 12.00  |
++--------------------+--------+
+3 rows in set (0.00 sec)
+
++---------------+--------------+
+| name          | CompletedHRS |
++---------------+--------------+
+| Jim Dawson    |           93 |
+| Alice Bridges |           95 |
+| Taylor Riggs  |          115 |
++---------------+--------------+
+3 rows in set (0.00 sec)
+
++--------------------+
+| position           |
++--------------------+
+| Student Worker III |
+| Student Worker II  |
+| Student Worker I   |
++--------------------+
+3 rows in set (0.01 sec)
+
++------------+
+| AVG Salary |
++------------+
+| 9.00       |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 6 rows affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 1000 rows affected (0.03 sec)
+Records: 1000  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 100 rows affected (0.00 sec)
+Records: 100  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 1000 rows affected (0.02 sec)
+Records: 1000  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 1000 rows affected, 988 warnings (0.02 sec)
+Records: 1000  Deleted: 0  Skipped: 0  Warnings: 988
+
+Query OK, 100 rows affected (0.01 sec)
+Records: 100  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 1000 rows affected, 11 warnings (0.02 sec)
+Records: 1000  Deleted: 0  Skipped: 0  Warnings: 11
+
++---------------+---------------+--------+
+| name          | Financial Aid | salary |
++---------------+---------------+--------+
+| Steve Hickson |         11546 | 12.00  |
+| Cooper Wilson |          7480 | 12.00  |
+| Alice Bridges |          5430 | 11.00  |
++---------------+---------------+--------+
+3 rows in set (0.11 sec)
+
++---------------+
+| Employed      |
++---------------+
+| Taylor Riggs  |
+| Cooper Wilson |
+| Alice Bridges |
++---------------+
+3 rows in set (0.13 sec)
+
++-------+---------------+
+| UIN   | Seniors       |
++-------+---------------+
+|    92 | EfBQcN8       |
+|    99 | A7gtUcL       |
+|   174 | 2z4HWvx       |
+|   200 | 8IEe3rg       |
+|   374 | YMpeuby       |
+|   417 | HhrTrKS       |
+|   439 | 8AdZ0mO       |
+|   460 | mHb8S29       |
+|   535 | QxqG2Kv       |
+|   572 | L2XKBOd       |
+|   598 | Q2pUJCd       |
+|   737 | cwsbA3U       |
+|   799 | 8WGS9Gk       |
+|   810 | ZmwwBPL       |
+| 20897 | Alice Bridges |
+| 21084 | Taylor Riggs  |
+| 22465 | Jim Dawson    |
++-------+---------------+
+17 rows in set (0.00 sec)
+
++----------------------+
+| # ENG & SCI Students |
++----------------------+
+|                 7853 |
+|                 3701 |
+|                13947 |
++----------------------+
+3 rows in set (0.00 sec)
+
++---------------+
+| New Members   |
++---------------+
+| Taylor Riggs  |
+| Cooper Wilson |
++---------------+
+2 rows in set, 1 warning (0.00 sec)
+
++-----------------+
+| name            |
++-----------------+
+| mWqBlQ9         |
+| uGXbEWR         |
+| zdNMK66         |
+| R391UXa         |
+| WS2qVOw         |
+| S0hoI6p         |
+| 01vOzwv         |
+| GbotuQQ         |
+| RadbLMZ         |
+| cM1fdhR         |
+| ZITSBQO         |
+| ivhOmeb         |
+| ZR5Y4M9         |
+| XvnFtty         |
+| oesnB4m         |
+| AggBfUK         |
+| NfTdMjJ         |
+| y5dZ4yR         |
+| c958dBi         |
+| NuUgtSh         |
+| oqLf5wy         |
+| 3qbB580         |
+| AK6OoG9         |
+| dr2pLqJ         |
+| sdbsItl         |
+| 6LSudyK         |
+| bOkq49T         |
+| 1ppttVm         |
+| fPWJYBj         |
+| hr28r0r         |
+| JVcJZhm         |
+| WVIgLxA         |
+| bP2eJ2i         |
+| je5Ul0f         |
+| 0DS51lu         |
+| OpkOMaw         |
+| vJMHdbQ         |
+| 6kEqmWw         |
+| RMwDyKe         |
+| lAzACK0         |
+| ktDtEzr         |
+| hAkSlBM         |
+| Rw2Go6E         |
+| PVKbzFd         |
+| lgLnhbz         |
+| 3y5L05D         |
+| NbYXy6F         |
+| 6A0ETHn         |
+| dBMkvhl         |
+| jnc7wCm         |
+| jZC90e6         |
+| ranp1VP         |
+| aGQhWSB         |
+| B3YH5Vq         |
+| PSuxREn         |
+| 5VK3ufz         |
+| 3DU7SNg         |
+| jM8124C         |
+| aRnkHsn         |
+| FLF0AIB         |
+| vAQLhUf         |
+| gyLxVOO         |
+| G8T1EIV         |
+| LtOkz8u         |
+| AZitw2E         |
+| q1vKRpH         |
+| DGQtM27         |
+| sYKbDbr         |
+| XFQ36Av         |
+| Ml7kZGx         |
+| TPcSRWP         |
+| Mb8GvB5         |
+| 6r76B11         |
+| RGgQZ4p         |
+| Yp6mHhX         |
+| Oy4mmO6         |
+| 9zXwtjd         |
+| dlxt1X0         |
+| QtLZK3x         |
+| 5BVBwuI         |
+| Wqi5iWx         |
+| 68CBt3M         |
+| cyeyBge         |
+| udsAK8F         |
+| g9qYTNO         |
+| dum4qDT         |
+| lG85clU         |
+| wJ4k2Lv         |
+| zXuR9Fv         |
+| vorqvhm         |
+| GuTXf1r         |
+| wUkYn6c         |
+| EfBQcN8         |
+| db2SkPl         |
+| LAAMtu6         |
+| LtB00QA         |
+| uT143YF         |
+| Wnq2iqK         |
+| ql8r8hK         |
+| A7gtUcL         |
+| ThhTmg8         |
+| YbXyiO0         |
+| KlKmNcM         |
+| Ev63Ihy         |
+| IWr4dLx         |
+| n3H7y3S         |
+| zZjhaBn         |
+| 1oRI8AF         |
+| HV27tNP         |
+| SOXrcqV         |
+| nfEwpd8         |
+| 71lwyuR         |
+| oTH0Kn7         |
+| 82LZiIt         |
+| TrZUfJR         |
+| OJRGckH         |
+| KpJxuVu         |
+| MluJbhn         |
+| DURphpT         |
+| HlX42pM         |
+| 5woBtFt         |
+| oRAzGv4         |
+| aRoPVyy         |
+| wXltecT         |
+| nwVXALE         |
+| CDNwzbK         |
+| pHr0EQE         |
+| w6w1ib4         |
+| NAUR6yF         |
+| GoRl1gv         |
+| uHia61d         |
+| VvL2kEW         |
+| f3CGqRm         |
+| Y1zN1lB         |
+| 3w5nAkN         |
+| 9URO8lU         |
+| OANXnyH         |
+| e2wABGE         |
+| 0G1JuvM         |
+| jRgs2Rp         |
+| Kn8nfOj         |
+| 3KUDP9b         |
+| nJl5HdI         |
+| Lhm6ors         |
+| GpQUcb9         |
+| timxa9n         |
+| Y5Oivof         |
+| PczwFLc         |
+| Q9be9n6         |
+| eVCGxOA         |
+| E4fBTvs         |
+| YYo1Lcm         |
+| zBBgQsN         |
+| 2qfhdtD         |
+| amSKK0k         |
+| OmYxmOu         |
+| U3jAONg         |
+| rCUMDcD         |
+| dhEWnSY         |
+| dosiSH1         |
+| Ti5663n         |
+| LnjTEhU         |
+| 0N9hKkg         |
+| bfEdJD1         |
+| WrdgnOM         |
+| 3TZY1kS         |
+| HqBLdwi         |
+| gUFmGOo         |
+| GFW57N9         |
+| 0jRxaLW         |
+| gErkCLm         |
+| D1JXm6N         |
+| 0UpHlvb         |
+| df58Qoj         |
+| 2z4HWvx         |
+| 8YwITDt         |
+| 9o0NISt         |
+| 0aZUOvm         |
+| 2waAWzJ         |
+| f196Zv1         |
+| iwaq8J5         |
+| KV8d6ls         |
+| OC7sTTC         |
+| TqKJ1zr         |
+| J8NRCbb         |
+| NYfNI9M         |
+| 51FttUu         |
+| wp5zgPx         |
+| 8SVALjL         |
+| x59J42a         |
+| 3li4RJ7         |
+| Y83TK8m         |
+| 2yAahWX         |
+| TDg17Bm         |
+| QweswFn         |
+| 3OHLUzp         |
+| 34vcLQO         |
+| YT0M7XH         |
+| Q3VevA8         |
+| 3x5UXMH         |
+| 8IEe3rg         |
+| OvlK2jb         |
+| OZVOZu7         |
+| 9M8xVkp         |
+| FjwQWfw         |
+| qwaUmMa         |
+| 9Frk8jj         |
+| YIIJqXL         |
+| O4TDm37         |
+| vlK66ox         |
+| fX75xv3         |
+| AiXpMDV         |
+| F22d0nX         |
+| DhY0q8q         |
+| uWwkiQy         |
+| WOe11xD         |
+| I8lK5aX         |
+| 3rmDEpN         |
+| KH3Pcge         |
+| kh33Hyl         |
+| qk4T9nD         |
+| dlImLTh         |
+| Jz6mYIJ         |
+| 8QT5TNv         |
+| TJePFIX         |
+| 8DpBsSC         |
+| 4bGcYQv         |
+| zsUJvDj         |
+| 8s0Zo2p         |
+| KTK1W95         |
+| klfXORO         |
+| D9iqrZu         |
+| Hulm4KH         |
+| doxvw29         |
+| CqTYODH         |
+| WKRQQzo         |
+| Odfa551         |
+| 78urAI8         |
+| Rv4TVFg         |
+| YjaLFBs         |
+| cAAZKoy         |
+| USCiRlr         |
+| 9SxneCS         |
+| mlCDyeI         |
+| aeC190N         |
+| lLuIu83         |
+| GKkO0XS         |
+| rpVfy7F         |
+| d1RVVTt         |
+| TX9gmXE         |
+| fSN1SkG         |
+| TAeWrRD         |
+| S1Nqt8F         |
+| PhFi8K4         |
+| j6FlQWv         |
+| KDpuqUQ         |
+| 543f53d         |
+| ZpERgMM         |
+| 6M66RT9         |
+| nenDeAM         |
+| wA5HsVa         |
+| Ek2wlCE         |
+| CLN0Pd7         |
+| TKeE5SF         |
+| 2zrdMCK         |
+| jVygq9S         |
+| 5TYmj9t         |
+| FVAzxHr         |
+| y8wgSgk         |
+| 5vgTn9l         |
+| TiUch1V         |
+| NShVlQG         |
+| vZ2qsJH         |
+| XX2JXcG         |
+| RzvyhBw         |
+| rgIKBnA         |
+| TuVSyWW         |
+| QSrNqIJ         |
+| MXzWjjc         |
+| LTs5JKg         |
+| Wqbxumm         |
+| XQdhAvQ         |
+| mHQQF9z         |
+| obEDoRX         |
+| taFU7BP         |
+| mpWuKrI         |
+| FjeHMZQ         |
+| 4FuRsql         |
+| L2s3FID         |
+| rH4bYhN         |
+| 5TMJrMV         |
+| gATTLQT         |
+| f6AcwQW         |
+| 6vB4SwD         |
+| RCmDHAc         |
+| KlRjhIq         |
+| G1SV61D         |
+| H9FUQM0         |
+| lgXngTV         |
+| Kx976ea         |
+| couZ2oH         |
+| eXepMU0         |
+| G5rapxX         |
+| C4HRolr         |
+| ndujBJm         |
+| hQoXc5T         |
+| Tds6dkf         |
+| GR4RRP5         |
+| GL9rKh7         |
+| dMq0xXs         |
+| pI6rmRd         |
+| WKojByB         |
+| LmtQ6IK         |
+| jVqrBZg         |
+| EoDZzu2         |
+| hW88gO8         |
+| LqBW99N         |
+| cZBFXO6         |
+| BQKL9bi         |
+| rIDheWP         |
+| rRrJUDV         |
+| AsuF7CU         |
+| vzYHw3x         |
+| Goi3YcG         |
+| BznAjzI         |
+| JKfcaIx         |
+| Rg01X09         |
+| 4xTnqLx         |
+| ZrezJI8         |
+| jrSBhZB         |
+| sSSHCk2         |
+| KcpcjEM         |
+| RrEWW1n         |
+| s7X86pe         |
+| 0qBygTt         |
+| Mg4I5i8         |
+| 3L7XfpW         |
+| GyIq9Tu         |
+| TISIvAX         |
+| tmrWJl8         |
+| mAUUxRm         |
+| kEwrXDb         |
+| DIUB2uF         |
+| Od7kHTj         |
+| zOBxCoO         |
+| zg9x2DK         |
+| SXD1rcK         |
+| xQQ3DZw         |
+| sKvbjVk         |
+| JygRv43         |
+| kikMp0v         |
+| YywjJLp         |
+| s6BZVQs         |
+| 5kjYQmN         |
+| 8un6Qr4         |
+| 2guy3uB         |
+| kzKlYml         |
+| lv8EW4q         |
+| cQf9NUF         |
+| lecJtiQ         |
+| ECo2C1R         |
+| NZ3nr0c         |
+| u3FyJuj         |
+| fYtVJOO         |
+| bmMK97h         |
+| Rww6VQw         |
+| MjkTI8r         |
+| 6PI0PBb         |
+| uZG9H0d         |
+| cSsHkj1         |
+| GIv5hVm         |
+| y9Tezyc         |
+| pCz89XT         |
+| 36Xivgg         |
+| YMpeuby         |
+| Qx8GpsH         |
+| ALNKfDz         |
+| Y3i1ZvO         |
+| KmQp1ac         |
+| kkkJx3Q         |
+| 4JNYTuk         |
+| amR70UD         |
+| dbXeeo8         |
+| MGQThDu         |
+| J4l6vlt         |
+| DdBaDT2         |
+| G9f13Wb         |
+| 63pyteb         |
+| CnXaWaA         |
+| BOQWZdD         |
+| pnEBcDW         |
+| QwrGNMc         |
+| Oi1SFSF         |
+| DMOypxr         |
+| t7fCVmX         |
+| nGlpM8Q         |
+| 02zMyWc         |
+| i8zzZ3d         |
+| xvde5wr         |
+| v0Qi6eY         |
+| KdRLPIm         |
+| J36976G         |
+| 0mADeJb         |
+| eWxnctd         |
+| ld4NB9K         |
+| VUc1czE         |
+| 4fBDoyb         |
+| 7NFFDaQ         |
+| FqZP9wn         |
+| 2rBhxdH         |
+| m5p4pqX         |
+| UOfpWqk         |
+| 35yqtkC         |
+| eg3aXJW         |
+| tOhcHkV         |
+| gJYe1cq         |
+| IQ3m64c         |
+| HhrTrKS         |
+| QYKiPV9         |
+| FvI7gWC         |
+| 5FYuOMk         |
+| pDeJtrK         |
+| ijw3yCM         |
+| u9iEck7         |
+| 6TgBUzW         |
+| bDxXu2u         |
+| dBX0IG1         |
+| ldlOjWg         |
+| i4afOMB         |
+| 3o8CRDt         |
+| UWl5cKd         |
+| VhMnPyh         |
+| 9WXn71o         |
+| piGvKEA         |
+| tjHZcqp         |
+| 8GoDzJJ         |
+| LMKZIzn         |
+| inmR5B5         |
+| DSqKymy         |
+| 8AdZ0mO         |
+| ObHGsuZ         |
+| 2W4iO1q         |
+| htKrPEn         |
+| W5B4pO7         |
+| JUJT8wX         |
+| S0PZzoA         |
+| V8gUI9m         |
+| mx40P55         |
+| DDqnUQ5         |
+| sIltXuA         |
+| 7XDk1ol         |
+| otYx7rT         |
+| jo1gwgU         |
+| mjCuXKv         |
+| NfMhdNR         |
+| FkFd4Hq         |
+| qz9ky4e         |
+| TjPNQ4j         |
+| oyO4qie         |
+| VgFj41B         |
+| mHb8S29         |
+| RLESvoY         |
+| AX3oEg0         |
+| 5aB3uJI         |
+| uQLUFE4         |
+| YfKeyUh         |
+| 7tCz8ev         |
+| x42sl4E         |
+| s0BXw7F         |
+| lNmM197         |
+| JCooHKJ         |
+| 2ciYHun         |
+| 95cew68         |
+| kiTuZ9u         |
+| 9mtlWsv         |
+| 6TWB4yj         |
+| j6SyJLC         |
+| uGLPCIZ         |
+| cDt3jkA         |
+| qbWSBFf         |
+| iKtbtlX         |
+| DBF8HUx         |
+| 2yU9E7v         |
+| 9KasHGn         |
+| mDvmlBP         |
+| VCoWgqr         |
+| Ee7iKQe         |
+| TcwMEfm         |
+| eF2lahM         |
+| FhMPync         |
+| uynusUM         |
+| uYemU43         |
+| Jkn5qke         |
+| e47NwDH         |
+| T1ZuDHO         |
+| HSHNhzQ         |
+| Mdly72Y         |
+| vtza5a6         |
+| PTeoYAl         |
+| Rl7LewF         |
+| T3aFufP         |
+| N7PwrVw         |
+| 8xyVRsp         |
+| yKBJibw         |
+| 2bi1eni         |
+| tVE5vYU         |
+| Fc2Qtu7         |
+| QU85Agk         |
+| hc1SdUK         |
+| ODYvMtW         |
+| WRl94fy         |
+| sT9qkKg         |
+| iHpcOiX         |
+| 36HWxLR         |
+| 8D5JYLu         |
+| TM4EWx9         |
+| Oq6Tn69         |
+| SoNuBMq         |
+| zkjf96P         |
+| D3xSiBN         |
+| XgOJXxJ         |
+| GeFYB2V         |
+| hrfHePd         |
+| f2U4dIU         |
+| P2URuuO         |
+| Vmwq5h8         |
+| MFOKmSu         |
+| nKm19qC         |
+| ErcXnNf         |
+| gxTcJmT         |
+| QxhUf0W         |
+| vFz1tZd         |
+| RWBGZrS         |
+| MauloKm         |
+| JU1Nsdt         |
+| QxqG2Kv         |
+| rkRYkaN         |
+| 6vhcIGe         |
+| 0gsVu5U         |
+| 8XRCCbB         |
+| hb5hcLc         |
+| 3dGdJQS         |
+| BiA2DTh         |
+| mljHUBM         |
+| LMq3L5P         |
+| NPzl9PI         |
+| vGU3hzu         |
+| akDNnNf         |
+| pEzwW8O         |
+| Mg4jESC         |
+| A4bZvBh         |
+| jIbbMuJ         |
+| LnhPEkA         |
+| 0fZwjyq         |
+| cfu84g2         |
+| faFIkpi         |
+| B1GG9Jn         |
+| cnOWt4f         |
+| 6LfVGlf         |
+| IIuCEPe         |
+| dc1Rrk7         |
+| tJwEXtd         |
+| xxEa9tD         |
+| Oumo1B2         |
+| ysRccGW         |
+| JG1SLwy         |
+| 86jelRx         |
+| lYPhw9R         |
+| D9AWCB8         |
+| 8atv8Cj         |
+| 8l0HP0Y         |
+| zURn8lc         |
+| L2XKBOd         |
+| nUkFVln         |
+| SZFbB2a         |
+| SHZs0RP         |
+| RLqcnAs         |
+| EvSsRGR         |
+| T21Q62o         |
+| j1ffHbZ         |
+| 34FpbDC         |
+| PV3xHvh         |
+| VDwJFUL         |
+| hkPBipo         |
+| 8VmcYvC         |
+| 6UC9zxK         |
+| z6HtVBW         |
+| rt9hWCC         |
+| S9oFGgd         |
+| rQirWxD         |
+| ETlFtoB         |
+| RxANXsN         |
+| 3mtvfjX         |
+| dxmvuqZ         |
+| WdtrZ86         |
+| 5YE3YWs         |
+| KdoIXol         |
+| iGd7tZZ         |
+| Q2pUJCd         |
+| uOratJz         |
+| WqJTcpy         |
+| s1Eb7ME         |
+| Y8sXbjn         |
+| FyZkoTe         |
+| SSzQ3yX         |
+| QPl7dB2         |
+| HXYcUvk         |
+| WimUu60         |
+| Zp2E4DK         |
+| bbJU094         |
+| VwBuvHa         |
+| pLbA2KH         |
+| be8MGSJ         |
+| ZkJPe4G         |
+| Lnppor3         |
+| l49natY         |
+| yy4yNmo         |
+| hIUO4s6         |
+| EQ4okY0         |
+| OMKMhbu         |
+| 7Dc1VyK         |
+| 41YDx3I         |
+| PqcTIUd         |
+| BvNDsFK         |
+| IMOsMiM         |
+| y5LXzxA         |
+| KYe6Vjy         |
+| QFqJM7m         |
+| xyROF5o         |
+| T0DDyDT         |
+| oc17Zai         |
+| Zg0R5OW         |
+| xDpRFhn         |
+| ehudnhf         |
+| MblAAKA         |
+| NmX5The         |
+| EKMEKDE         |
+| ZLbjBtF         |
+| mlfOsiZ         |
+| llwaPFQ         |
+| i0oQHHg         |
+| 0qxJT6q         |
+| r3XoLG3         |
+| N0HjiuG         |
+| TJ0YISH         |
+| zbAcoLw         |
+| seDMBSz         |
+| GOwHt8S         |
+| JyxSBpb         |
+| d1pciNC         |
+| SzAh5l6         |
+| 3WgViUx         |
+| XrSBFgX         |
+| M1hZGx0         |
+| 9H7HPQE         |
+| lNuJonP         |
+| aX4lwKD         |
+| Nqcb82r         |
+| RkcMIxg         |
+| yYN8eMV         |
+| e5OXvSp         |
+| 9ZvcBP2         |
+| 5ole6Af         |
+| 2ZOV0Mb         |
+| RDZuSIM         |
+| WD2IrOz         |
+| ahmK83G         |
+| os7gJ4R         |
+| 1FbUywu         |
+| nTOFS82         |
+| CU4dSdB         |
+| 2EFR5Wn         |
+| TiY6C7H         |
+| hQ6zPHL         |
+| wCGxncE         |
+| SC0NRcO         |
+| ddwRr5O         |
+| kjCJklY         |
+| AjkSypz         |
+| SbY8ES5         |
+| RbGLWL5         |
+| ygWNRGs         |
+| NF0yw9e         |
+| lmM09M8         |
+| nco3ekB         |
+| HdkYJfj         |
+| 6EncZgW         |
+| ZNd2UPR         |
+| JR0aWFd         |
+| N7EiuFI         |
+| Urebrj0         |
+| eG1FXGY         |
+| x35Ti6b         |
+| OLOtsLO         |
+| hYZ4nly         |
+| 5zgPeeK         |
+| bVBX2XN         |
+| 4KowdLx         |
+| XcMOW0j         |
+| MDhCYuZ         |
+| lNUaVed         |
+| a5cjRrm         |
+| 9nhAYn0         |
+| LY54O5O         |
+| R6mKIFJ         |
+| aWVnUrR         |
+| X694b6N         |
+| NZx8TMk         |
+| wib560a         |
+| cwj3SA0         |
+| YH2Uqva         |
+| eXbahgo         |
+| MTdGdZf         |
+| ZaT8WFO         |
+| aoxnR44         |
+| mITBDj4         |
+| ndiGWvJ         |
+| Mqp1uIO         |
+| AfVXpC0         |
+| OJXIDFA         |
+| CKiy9rJ         |
+| DiuFfH1         |
+| PHdK40z         |
+| exvoJ4B         |
+| Po3JLYM         |
+| ilRgwxI         |
+| Zzc62vE         |
+| spuwWlH         |
+| Zc1g99N         |
+| wEWziLZ         |
+| n72C93b         |
+| mbKuODc         |
+| NA9ibFB         |
+| In7H3Kl         |
+| PeEbzCv         |
+| OMJ71yO         |
+| JJVfkgT         |
+| cwsbA3U         |
+| hjIzo2N         |
+| ZSbJWNU         |
+| kqcamZQ         |
+| n7cB75s         |
+| Q2a0I3J         |
+| n7J1emh         |
+| GE5es0L         |
+| rQ8NZJi         |
+| gClVwxJ         |
+| vZCZaTz         |
+| ly1zJvp         |
+| 15d6mMX         |
+| a5Pxq67         |
+| RjHBbBz         |
+| Wn1qLTF         |
+| 04IVK7a         |
+| MfM8GPu         |
+| wSSZM7q         |
+| mTTT6bI         |
+| VLW8X45         |
+| xzvRbhh         |
+| OU5KuCd         |
+| jGp5orJ         |
+| 4b0FOjx         |
+| mwYOIUn         |
+| ENk6qZc         |
+| Aj9UfG4         |
+| I0idyGS         |
+| eKgvlJK         |
+| DbdzIwp         |
+| dikAdAs         |
+| 5pVe51g         |
+| EgvFfoQ         |
+| Qyumuyz         |
+| tTB5M3V         |
+| aXaJaHJ         |
+| AR5YNVu         |
+| w4U9nxp         |
+| EGyfTAP         |
+| TlBCISm         |
+| WYkxZG6         |
+| pzXqDbJ         |
+| 7Ejikfp         |
+| vIstduU         |
+| 0f3rz5Y         |
+| s6uy8Xv         |
+| ioSxTg2         |
+| 7NcWywY         |
+| IV4yXbt         |
+| fDBIpUV         |
+| 1Bui9fK         |
+| 3RvErlw         |
+| rdIRQQr         |
+| 8c99VK9         |
+| doUYPMb         |
+| hRlQPnj         |
+| XBESX4l         |
+| eQeaqP4         |
+| hTmNIxE         |
+| SkWLhTG         |
+| 7eWbkuu         |
+| 8WGS9Gk         |
+| IEyI3L8         |
+| 3JJkE3h         |
+| k4q3ps3         |
+| 2Zs1CyY         |
+| c67wGJq         |
+| EjFng27         |
+| BzBMIcI         |
+| JdM1gHh         |
+| e0C9VO0         |
+| r7u04Vl         |
+| ZmwwBPL         |
+| extBulG         |
+| XxzMVP6         |
+| p9nU7Gm         |
+| aR3OI1w         |
+| 68Ik5wF         |
+| kfhcGAg         |
+| UJMu8cf         |
+| uuH4R6s         |
+| yJk3MkL         |
+| ZOvOpGj         |
+| lRx0fgE         |
+| KXq5Ptz         |
+| 1jvPjl9         |
+| ls4xnGk         |
+| dMVz8Ve         |
+| M6Dh3bM         |
+| EQ59R71         |
+| gDZalBm         |
+| G1hqSG0         |
+| UDkEg47         |
+| LocKcre         |
+| rF4Czbf         |
+| HWIq24h         |
+| e1RmzON         |
+| EHk939q         |
+| Rc1uw2G         |
+| xIaiV2U         |
+| kFkzdKT         |
+| iBBv6Bv         |
+| 8cvGccL         |
+| ccMdk9i         |
+| BivzKLa         |
+| edUaaQh         |
+| bPExuL6         |
+| YhKPfJB         |
+| J009dMP         |
+| dx5PwVe         |
+| kn6H0QJ         |
+| MyHEiyA         |
+| RA6D02R         |
+| BTKV9x0         |
+| Yi4pIqG         |
+| ZP6qS2C         |
+| i0h8nfF         |
+| 3Ckv83F         |
+| 5otw7YW         |
+| wVT6LLu         |
+| TV5gw2x         |
+| 5UHBzBo         |
+| b3yyyi4         |
+| oUAGBqA         |
+| Flkb69G         |
+| DjN2PTc         |
+| VmktA2O         |
+| 88WfFoF         |
+| sqgeX78         |
+| sCDY1iu         |
+| BKp9ZLs         |
+| BCpBLQ5         |
+| wNK44uW         |
+| MMTjfcV         |
+| TrpCoo4         |
+| I7oHa57         |
+| etk08we         |
+| VsdkZtl         |
+| OoaFsjw         |
+| smX2vv4         |
+| h2om52d         |
+| tV20ERt         |
+| nymphr6         |
+| UEzWGKu         |
+| j6O1D3m         |
+| M8Qek8Q         |
+| vRRoQKB         |
+| ISlyH4G         |
+| CHuHY3q         |
+| DuXDDXk         |
+| PWHffcE         |
+| aGGqDrX         |
+| BoBCo2g         |
+| 8fu4fas         |
+| hc1ZwHX         |
+| wfQmHRT         |
+| igrvKEh         |
+| ZXKuXPi         |
+| Req2bPw         |
+| FlIIa1P         |
+| pFDsndN         |
+| RlwbXn4         |
+| SAibylq         |
+| 1Vllo7g         |
+| AWgH8ts         |
+| 4JsVb4L         |
+| EBYvawg         |
+| HzMEZ2a         |
+| AC0SBhq         |
+| QUA5CLS         |
+| KYbiNJc         |
+| csjI772         |
+| 1fOxXAN         |
+| 90qF5t3         |
+| ivZvEhy         |
+| bHixAEh         |
+| vO7fcTM         |
+| Gq93XzY         |
+| 1FR2wOJ         |
+| PGLxOUt         |
+| DqmoVPI         |
+| ZvGJSDy         |
+| i2lhhhy         |
+| kaimRg5         |
+| oMJe1cC         |
+| hpyn1GR         |
+| gK5DSbX         |
+| SDkWWAK         |
+| Dv1wF4J         |
+| wQfm0LH         |
+| GPWHLTV         |
+| 6dKJzs8         |
+| eYObfzG         |
+| xcntYfZ         |
+| LQbf8tb         |
+| 30bvZLr         |
+| 7vUaD5A         |
+| gZ2ABpD         |
+| YJ06GcT         |
+| fhHUuhC         |
+| 6CTxy35         |
+| J1sM6Wa         |
+| CL4NTmN         |
+| fohOYIY         |
+| LGB3iNz         |
+| XkYjYGH         |
+| WEZIzB8         |
+| vYaOiGd         |
+| iIhzfiY         |
+| Q4RWL5Z         |
+| br6lhHP         |
+| sLwuUiy         |
+| lUmlLFb         |
+| EFovqIH         |
+| jpwWwUt         |
+| VAR80uK         |
+| OPjP2ca         |
+| xuHTKyC         |
+| Dn8tTwr         |
+| DpcRBfp         |
+| 0NFkbge         |
+| RieJnJy         |
+| FZTYdCh         |
+| KnpYG3j         |
+| MJq5V1o         |
+| MN7zG4N         |
+| GeGb6zZ         |
+| iilQgiP         |
+| b2Q8hrR         |
+| I4e6qkA         |
+| FeIt1GD         |
+| qtd2xgL         |
+| UOdScFt         |
+| 7DOdzg4         |
+| SdK6Ypc         |
+| QNXMuHJ         |
+| 12BIdTy         |
+| Alz1PgR         |
+| rmCnD2H         |
+| k47vbwH         |
+| CpPYWmI         |
+| K8WJz96         |
+| NncxUuo         |
+| 7Qj2f3w         |
+| AAXtARb         |
+| Qtej51y         |
+| YZVpnaO         |
+| 0R8QruF         |
+| nlJWU9L         |
+| yW2RfnQ         |
+| JWFNyBz         |
+| 9HCA9z4         |
+| o1Zt8xF         |
+| rapy0WV         |
+| r8wFpzb         |
+| McNsHxT         |
+| fqahZXF         |
+| j03EjmC         |
+| vq215T1         |
+| jJLWm6V         |
+| QWATgzI         |
+| Lz1nrzf         |
+| Steve Hickson   |
+| Cooper Wilson   |
+| Alice Bridges   |
+| Taylor Riggs    |
+| Jim Dawson      |
+| HHWo5Ku         |
+| reZI75L         |
+| CMUU5LZ         |
+| nD2KU6t         |
+| cSRWPwp         |
+| 60LBOz7         |
+| dgJYe1c         |
+| YhoyW2R         |
+| iRrogSY         |
+| mlXrL1l         |
+| XXKfymh         |
+| hKkg81x         |
+| uwKpoMJ         |
+| Nqlmp4T         |
+| NNL1NKB         |
+| 5A7KTsJ         |
+| xzJ1ZEv         |
+| Faq0jWk         |
+| LiIGjRg         |
+| bWvnY5X         |
+| U8uRbvE         |
+| bGLWL5F         |
+| rv9wUnd         |
+| Tdx5PwV         |
+| WB4yjy2         |
+| Z16orXY         |
+| SDFKaBa         |
+| B7jK2ki         |
+| o3Cx2n3         |
+| mQSzgts         |
+| Dx3IbV2         |
+| pI3GE5e         |
+| dOD6g0p         |
+| 87kVVhM         |
+| KuvifjN         |
+| Fr7BfwO         |
+| Rk276Xr         |
+| EIndrWt         |
+| 49w9SUs         |
+| uIT784v         |
+| mfQrTNT         |
+| HMBcCZz         |
+| LzgjD5q         |
+| hw9R4Fs         |
+| uqe9Nfv         |
+| 5g8wfQJ         |
+| FuY3i1Z         |
+| k96q4K8         |
+| QlgHElX         |
+| LJZssKn         |
+| WSUDYGO         |
+| 8tsW9l6         |
+| Julius Ceasar   |
+| 6r0f3rz         |
+| Br0FZTY         |
+| tjJVKps         |
+| Fz4dcKo         |
+| o1Lcmi1         |
+| TBQnqmz         |
+| bTVc9Ht         |
+| 5YPc5Ox         |
+| rSBhZBl         |
+| mZ9mvzU         |
+| rnBATmm         |
+| fM9kveh         |
+| WIiX5kk         |
+| Marcus Aurelius |
+| sr21C2i         |
+| aiV2qbY         |
+| fGhJKfX         |
+| JUoyO4q         |
+| 3i6ainu         |
+| O1LLI0P         |
+| cKd7uuc         |
+| pyn1GRI         |
+| YJ3Dow9         |
+| iA4bZvB         |
+| l94Iv1u         |
+| 0PbYeXe         |
+| SQG1SV6         |
+| nLIwJmD         |
+| VRjLmtQ         |
+| cKQ5DlF         |
+| kFC8ihx         |
+| UaD5AAX         |
+| wggUp5m         |
+| mnbjsjo         |
+| ODt4A5h         |
+| XDv0aZU         |
+| gbgySCB         |
+| 4hXUwHw         |
+| BlQ9wQj         |
+| 8Wa5cjR         |
+| yfaZJUq         |
+| BzeUhzt         |
+| TxhYf7W         |
+| QojJxaW         |
+| ffiE6oj         |
+| KONFHBM         |
+| zRCop5A         |
+| Xi5xr84         |
+| xpNjTBE         |
+| 4yEdMVz         |
+| idBhVii         |
+| jzqtkPt         |
+| w5AE4fB         |
+| xAZitw2         |
+| eS7DOdz         |
+| jIDuJp2         |
+| DsnMxnT         |
+| P7QW3lZ         |
+| lUWf28o         |
+| K5aXOoz         |
+| PcYTb03         |
+| QP5TQpa         |
+| wgC5LS6         |
+| 2urS3DA         |
+| texTyqg         |
+| ThRlQPn         |
+| b6UQKm4         |
+| QgVxnwn         |
+| h2plAvq         |
+| FgMkdJy         |
+| iCE5FYu         |
+| IINQj4l         |
+| XK4AC0S         |
+| TotwWWQ         |
+| QVSSRzv         |
+| hMxEvJg         |
+| bxgHPic         |
+| QWvbUpW         |
+| rEvGJGF         |
+| eLjFbm6         |
+| CycrNvt         |
+| PG1c7uQ         |
+| ffAtmVl         |
+| pwWoLk1         |
+| sBZXlQV         |
+| Ea7h6Rx         |
+| kqG7Z6N         |
+| oiqIzMc         |
+| q35kVXo         |
+| la1Syj9         |
+| 1jqUKzt         |
+| 5lkiWl4         |
+| f9uksLw         |
+| 2XKBOdH         |
+| A70npmd         |
+| pjFNR6o         |
+| 04LkSoN         |
+| lm4KHaj         |
+| eq2bPwJ         |
+| ycgqjGp         |
+| eblRJAM         |
+| 8rW6Xab         |
+| 5Svwx3d         |
+| nfFnJrU         |
+| RKHiGeW         |
+| AYn0N2f         |
+| H3hQw6I         |
+| dIHD9iq         |
+| iKQePq1         |
+| 1unUHbD         |
+| YemU43Q         |
+| e76Rw2G         |
+| hbvormC         |
+| 1FXGYLf         |
+| WPwqljN         |
+| bGSqBKp         |
+| NRcO5MA         |
+| d9SyXmo         |
+| gRJbKKw         |
+| 3oBhkyP         |
+| ovvMty9         |
+| yvcghFf         |
+| W8hC80E         |
+| Ci9UfFC         |
+| kHkwamQ         |
+| i7OuXrS         |
+| X3gvhTm         |
+| UCnXaWa         |
+| ua0keio         |
+| hy1fjXx         |
+| u8N031g         |
+| 8BovPuN         |
+| eAwUdOd         |
+| Pzl9PIs         |
+| KSIRLge         |
+| q0YgE8O         |
+| AjzIijE         |
+| 1RVVTtZ         |
+| j41Bq5t         |
+| cEyrIrb         |
+| Ntimxa9         |
+| O47XWS2         |
+| G6sg211         |
+| cydE54Z         |
+| zVu2Xb9         |
+| hZDoOIW         |
+| uVrKcDP         |
+| 2FZI098         |
+| RTuot2R         |
+| r9qxyoh         |
+| uxrvSbY         |
+| Sol8VKb         |
+| ZgWElPt         |
+| l650NZS         |
+| Ayfve8f         |
+| BgQNZ82         |
+| 85n8HuK         |
+| fVQ9Uy7         |
+| 6f2TDnH         |
+| gYL69kQ         |
+| A96wrpV         |
+| 6TRBnCj         |
+| zzfct2K         |
+| qrBZgnf         |
+| BSfMpUv         |
+| AYJrpQj         |
+| rzd07Ul         |
+| g31oRI8         |
+| XsTM4Kg         |
+| F8gLD0M         |
+| 2TKBlt5         |
+| XSXSFr8         |
+| Dh3bMVr         |
+| qnUQ5HK         |
+| GG9JnUM         |
+| 27lX6rX         |
+| M9mx1ur         |
+| BD7X1vh         |
+| jCcY7oi         |
+| Sm3l5hb         |
+| Zqvt1gF         |
+| C0K2zUR         |
+| kjf96Pw         |
+| UHkykiS         |
+| UQM0YiN         |
+| N3x5UXM         |
+| UmlLFba         |
+| GTuqPH1         |
+| OVUS82I         |
+| aJn9Nnd         |
+| ooWulYq         |
+| y3eEKME         |
+| tW3boMH         |
+| TcJmT2t         |
+| r6rhm0W         |
+| 2NSC2gu         |
+| jc0426A         |
+| 2mmeTfA         |
+| Qb5qI27         |
+| 3rgMyBg         |
+| t9ql09r         |
+| 6XbErcX         |
+| eMujGB3         |
+| O6HbOLV         |
+| IwpZcC5         |
+| t5AJnii         |
+| 4iaddbX         |
+| Za3w5nA         |
+| 76T7eWb         |
+| V7gv1pl         |
+| SbNYi4p         |
+| u4y62hK         |
+| 3hZ3Rf1         |
+| wU5cOkM         |
+| MAGRyPJ         |
+| zKspiAS         |
+| JoDjN2P         |
+| a5Ufoib         |
+| PB2LWkI         |
+| XuAVHQ3         |
+| OcFEzUE         |
+| DpoAPco         |
+| 9xVCoWg         |
+| ANKSxin         |
+| JakSdjG         |
+| tNHuT14         |
+| MuJLVYp         |
+| UBvtqyH         |
+| arQRlJT         |
+| 4x2J4P2         |
+| 1deNSLO         |
+| HwSEl4w         |
+| 5oPzUKw         |
+| 5p40Kep         |
+| uVrIGdc         |
+| kVld4NB         |
+| bd5faFI         |
+| X4lrJF8         |
+| I4BIMtE         |
+| ziLZGAC         |
+| xx5pu7S         |
+| EVTXlo5         |
+| 94bGcYQ         |
+| uGLsHf3         |
+| KriHpcO         |
+| KqpDMOy         |
+| jzVhMnP         |
+| zkmp9Mj         |
+| EHxQ4bu         |
+| iW1cdne         |
+| gIucA4w         |
+| Q0qBygT         |
+| UJ7MSmW         |
+| BLbVhnS         |
+| 5f2ctxh         |
+| zKlYmls         |
+| p1acLHV         |
+| iKGoi3Y         |
+| nmR5B5Z         |
+| PBipozc         |
+| e2nbXOn         |
+| IfqLq8L         |
+| JeZc1g9         |
+| 1csIpyL         |
+| TwrfNhl         |
+| 51y34ct         |
+| PH2QQ2p         |
+| ankikMp         |
+| Mkt3vPH         |
+| WFO41Oo         |
+| fdhdLA5         |
+| jv8LcvX         |
+| Oi9MjkT         |
+| j993HG8         |
+| O1Z4ZNA         |
+| LZ3RlpM         |
+| s7w9xGA         |
+| ylNmM19         |
+| yxL8LfW         |
+| nSPuboT         |
+| vWuvrNy         |
+| 27QYLo6         |
+| YK43aR3         |
+| gCAlA64         |
+| EZOvOpG         |
+| uy330bv         |
+| Ug8F2kv         |
+| pAVZL5P         |
+| JDmrZXK         |
+| nxAs2vE         |
+| Ok5xsnF         |
+| NePDOrC         |
+| GXyYrNM         |
+| gLiF5aB         |
+| yYXYArI         |
+| pR7L6ak         |
+| ydQm7D7         |
+| fBgQHML         |
+| 3uBNT4R         |
+| ggYU1we         |
+| JC4tiAB         |
+| CTompWu         |
+| OratJzC         |
+| gCaIJL5         |
+| TA5nIn7         |
+| uIGWQqi         |
+| GrcyoKH         |
+| vzNNuBV         |
+| 8OEUhn5         |
+| ZZTeMMa         |
+| jdXrZRL         |
+| u0UpHlv         |
+| YMz00gW         |
+| BzYJ0hx         |
+| 2Le10Dt         |
+| Bt3MMia         |
+| gX6vRdE         |
+| 8WXMw0t         |
+| R6nZccM         |
+| JZSXH7f         |
+| 80Mm7lL         |
+| NRSa5rn         |
+| lJ80pYe         |
+| 5umOLV8         |
+| nZITSBQ         |
+| xREndEs         |
+| nDeAM7B         |
+| pqaicpN         |
+| 2WM3WOC         |
+| POtL7u8         |
+| sXUVFNy         |
+| oDkZJxS         |
+| 0wUkYn6         |
+| UZhYrUd         |
+| WOy9ppu         |
+| 4KSxMR6         |
+| jL0naFM         |
+| zhQ98DO         |
+| YwU4lI1         |
+| FkaJbqb         |
+| 9aB3YH5         |
+| ae6A76c         |
+| wGG9Lk0         |
+| iDmbvvR         |
+| 5hwSSZM         |
+| Zs6gXFp         |
+| BdDBvWz         |
+| kAonZEX         |
+| bfdGHsc         |
+| tHU9168         |
+| ifytJdS         |
+| JTxeTuN         |
+| gM8SVAL         |
+| GS9GkXa         |
+| 6qS2Czi         |
+| rrTNa8R         |
+| bbgOltE         |
+| YcimFDa         |
+| F2h3j2H         |
+| Xv7VnAm         |
+| SBpb7AM         |
+| SpjBnCc         |
+| CpBLQ5D         |
+| ZPQ11sI         |
+| mJHgIAm         |
+| OatIyb7         |
+| p04p0WF         |
+| XcjVCaJ         |
+| GjF4qkK         |
+| IBmkc6Z         |
+| lCmJdmg         |
+| Im2fmsj         |
+| 4RkcMIx         |
+| S7KDFOf         |
+| q4dON52         |
+| 6YpcRsT         |
+| 2Zg0R5O         |
+| UY8kIvr         |
+| gROPscC         |
+| QeKgvlJ         |
+| eDURphp         |
+| ojpuxb0         |
+| ch1Vn3u         |
+| cDzmmTy         |
+| rSMcARy         |
+| WuBoBCo         |
+| BI3x0Nj         |
+| RMMN2ge         |
+| cWyYkDM         |
+| 4DVoIt2         |
+| WExAmz1         |
+| b0FOjxy         |
+| obrisXp         |
+| P2eJ2iV         |
+| ZoWUIrt         |
+| hFLeud1         |
+| WesX5T5         |
+| uHW0HlC         |
+| hAqHShj         |
+| oVPI7eo         |
+| JS3ZODh         |
+| k4aBcty         |
+| upXwtgv         |
+| gwWQB5T         |
+| TB9iSNG         |
+| 0nFBZey         |
+| p6M8THD         |
+| P1Vllo7         |
+| weswFnJ         |
+| QWpJ2Nr         |
+| FADFxYx         |
+| PWBDfJj         |
+| eVy5fET         |
+| sA0bGR3         |
+| UZnrWEn         |
+| TiWH90R         |
+| TdyteXo         |
+| 1zYkGNN         |
+| RpYC1jB         |
+| d2hP9rT         |
+| KBDrFhg         |
+| ZSCjJyH         |
+| 5a6DAP1         |
+| SwWijja         |
+| 0LgzecN         |
+| PXjbFaa         |
+| wATUXNL         |
+| FT2lwJ9         |
+| cN81qV4         |
+| UaQKZTZ         |
+| HKJIbsJ         |
+| NC0NjLn         |
+| Mfch7PW         |
+| 7tNP20P         |
+| m1xKhMR         |
+| X2AxfmQ         |
+| Uxviqk4         |
+| Tor6tA5         |
+| 6I5vgTn         |
+| hcMBJPU         |
+| Y9yqBmS         |
+| qrjeSFB         |
+| ED8N7Pw         |
+| eNjydvJ         |
+| apKX4bm         |
+| gc8ICsG         |
+| 6gkmIGK         |
+| WpH4ibf         |
+| FhnGpdY         |
+| nHRr7nV         |
+| xGYoYMa         |
+| AGngVoJ         |
+| bxTwYJt         |
+| 8pJ7ONW         |
+| 90NOPzS         |
+| fxEtEA5         |
+| HObDYlJ         |
+| JAUFa6b         |
+| VBlVRam         |
+| 1ZU2rcZ         |
+| Wh16o5d         |
+| Jb6Yyp6         |
+| HKEmx40         |
+| HtdEiwF         |
+| ft9eMq4         |
+| 3rK1dwt         |
+| RwR4AHi         |
+| nCrFkrO         |
+| YBg9mtl         |
+| EGHsKFO         |
+| u4C5xUw         |
+| RtNHJLI         |
+| 8k2k9eL         |
+| nk96W1r         |
+| 9jSBSVX         |
+| SyRgnYF         |
+| vSikHFs         |
+| qJXPXpQ         |
+| yVRspJi         |
+| 47vbwH6         |
+| Zx8TMkj         |
+| HyFYutd         |
+| HkbOkq4         |
+| 6cOtRVf         |
+| dBIzW1u         |
+| 6xhlfDB         |
+| wbQDB8T         |
+| eEbzCvc         |
+| FSwCGxn         |
+| NioKX18         |
+| RohM5Yg         |
+| XMO8YRJ         |
+| 9BwvU5J         |
+| EvNKBsn         |
+| r2OcH4x         |
+| pQjdLx5         |
+| 722AggB         |
+| OyRc1uw         |
+| 1uCGbCk         |
+| 8tqnxNf         |
+| zOkQp15         |
+| FiOpXvl         |
+| Drhdh7G         |
+| 7uLAC4x         |
+| KwXLWVI         |
+| JPWJm8t         |
+| 3ZZ6Rak         |
+| gx7vbv2         |
+| uNbidum         |
+| AvQwP3f         |
+| zMdly72         |
+| 41PbYES         |
+| MMSsKZI         |
+| jmT1bbh         |
+| anHc3SG         |
+| rtYodxv         |
+| ONDbOWZ         |
+| muwowvk         |
+| YOZ1FfI         |
+| T6bIjc4         |
+| mzs9IJ2         |
+| jRo5BYp         |
+| KHRf9TZ         |
+| Xl8Y4g9         |
+| BzsFzxz         |
+| p4UR0nD         |
+| vofVJcr         |
+| ZCGz0OJ         |
+| 8Q3CBe1         |
+| hgXjNHI         |
+| jJLpnnd         |
+| 89tTXLB         |
+| YIdlQEG         |
+| j9bgv9g         |
+| yjLNlek         |
+| XTg5q0h         |
+| wKZWHel         |
+| cD08DsN         |
+| hmP8Okg         |
+| e3wXIoq         |
+| cDeIoVw         |
+| 3LNfqFQ         |
+| D9XjyGw         |
+| ZtlG3te         |
+| ngCMuRu         |
+| W2Y6HQX         |
+| 4TaEHuQ         |
+| gy8XRCC         |
+| b3yOjmN         |
+| xXaru4J         |
+| yLJag2q         |
+| VUlcyWk         |
+| zuGOwHt         |
+| dQX9owJ         |
+| 5F8vy7J         |
+| 6jyYwsV         |
+| n71odb6         |
+| S553Qsd         |
+| toIQyum         |
+| 7EVZE90         |
+| QfjNZDD         |
+| yYPVK5i         |
+| cVhBhTK         |
+| hxgqRqc         |
+| uJiY8zV         |
+| XnxUFCU         |
+| VXALEVH         |
+| HCMCgMs         |
+| nE8oTCJ         |
+| 9cnBSAh         |
+| 8Ik5wFQ         |
+| XFJLOXN         |
+| yvmE7Pw         |
+| orUBrRK         |
+| sdCf2By         |
+| wNcuNAW         |
+| brOxzix         |
+| q2iqKPg         |
+| TiJz8mu         |
+| coQWATg         |
+| TvxBAd3         |
+| mZQEvWS         |
+| DyeI64A         |
+| A5CLS6v         |
+| lcNjLD0         |
+| oTDt7uj         |
+| OPhFi8K         |
+| Tux5haW         |
+| sORthjb         |
+| Hh8Ml7k         |
+| gHdkYJf         |
+| VTr7u04         |
+| k7Bd9Js         |
+| YW3SLu7         |
+| eqFxA5L         |
+| Mu6dCWR         |
+| vGtLD25         |
+| LF0AIB9         |
+| nClhPEx         |
+| Ef2U4dI         |
+| DHeoXQ3         |
+| JujH5HS         |
+| 6SO6vTx         |
+| 9yLRWMb         |
+| T0TZ8CS         |
+| jLWqi5i         |
+| jzGpQtS         |
+| wCoyZrN         |
+| unuVDwJ         |
+| yr9Sxne         |
+| pO7mGqS         |
+| 1czEP3O         |
+| X41laD6         |
+| aAWzJrC         |
+| kH8MLex         |
+| 1MLFjwQ         |
+| ywdQBiw         |
+| BMvUEYg         |
+| 6tgtlBh         |
+| nrzfeOp         |
+| xEtRv2S         |
+| pCOikGa         |
+| zkaFvq2         |
+| 2sXkDGK         |
+| l17Dc1V         |
+| KvqXgRC         |
+| lX1xYag         |
+| f3PTbyz         |
+| hjUtmrW         |
+| Vr86jel         |
+| 0htKrPE         |
+| jIPGLxO         |
+| tA2OgbD         |
+| ewTtX69         |
+| boHZ2rB         |
+| JEcS6Cf         |
+| 3kGAfXF         |
+| WwrGeaM         |
+| M5QwXlt         |
+| 5po0VPW         |
+| FTo4zkt         |
+| BozhNbz         |
+| Ie69jU6         |
+| akSawkP         |
+| BuvHadw         |
+| Kh7dEC2         |
+| m7UPHOx         |
+| uYvYrT7         |
+| AIyGE9C         |
+| 51R2fuZ         |
+| SWqbxum         |
+| eHMZQLL         |
+| lnJ9n3v         |
+| 5rapxXI         |
+| An077Ey         |
+| 5SRtV20         |
+| B5M3V1n         |
+| vDjaa4j         |
+| X1LN2Tg         |
+| 2LZiItm         |
+| cZUrgxp         |
+| CnsxUQu         |
+| 3qru2KV         |
+| 8EHjIp2         |
+| H34bbJU         |
+| DVNCTGo         |
+| pYG3jeV         |
+| yjyT5UN         |
+| zs4Xq0t         |
+| 9ESlsLf         |
+| FBOQk7N         |
+| VYACxUP         |
+| 0TkB8rB         |
+| wBPLSrS         |
+| 1VmBQAv         |
+| MiBmXZx         |
+| fRhc3l9         |
+| Rz9mW5z         |
+| PZ4yimK         |
+| fMEAWtU         |
+| fDSxjvW         |
+| 5i8iNnH         |
+| kNsUreb         |
+| NIoSuyn         |
+| h2vK8HD         |
+| yEdxmvu         |
+| 0IJNm0K         |
+| PKxSRmG         |
+| 2pMwfcZ         |
+| tD4rOe1         |
+| 0Rd7k43         |
+| DRyRj67         |
+| Ye6Vjy3         |
+| qc8ZxCn         |
+| 4lA1Ghz         |
+| XN6AZXv         |
+| hybF38W         |
+| mphr6EC         |
+| vEvSTDg         |
+| MwDsicy         |
+| 4SSzQ3y         |
+| T7u8V80         |
+| UxOTspO         |
+| GQThDuA         |
+| 1tWMqp1         |
+| Ystmf05         |
+| yKeh2WG         |
+| vhD2ZOV         |
+| vLdOZms         |
+| Dn0AtAK         |
+| J1tfLVZ         |
+| hkXGhdn         |
+| 2fAmODA         |
+| Uetk08w         |
+| 8RWJpwV         |
+| aHz2Yms         |
+| h9uFloo         |
+| n9oirYb         |
+| XNZ3nr0         |
+| OLJ5ETy         |
+| GkdAqwe         |
+| WgPucRc         |
+| pgiQ1zy         |
+| YMHhSY8         |
+| f5pAjQ0         |
+| cjIDiLu         |
+| JIAuUJL         |
+| Ug31LMq         |
+| KbzFdcE         |
+| rnSTycv         |
+| aUmMaQH         |
+| fFSRHZI         |
+| uoPRhMN         |
+| uniFEHN         |
+| RYsq42C         |
+| 0hoI6pg         |
+| THPENlK         |
+| TdMjJFB         |
+| 5RhRXdC         |
+| WUYlnku         |
+| gUCIy5L         |
+| 1EYE3FU         |
+| XrWB7Za         |
+| E8MgmIk         |
+| GDWOe11         |
+| mebpbln         |
+| HZC2aRn         |
+| MGPWHLT         |
+| PrMGfpK         |
+| Bui9fKn         |
+| rZ86YM9         |
+| FLoRY4t         |
+| fCVmXpb         |
+| NhlSjEe         |
+| pc4X2yz         |
+| sjHn905         |
+| QLUFE4V         |
+| EhnxzZK         |
+| IS5kg2Z         |
+| y3WSBfh         |
+| FNyBzsP         |
+| gXr04sR         |
+| J2VDRZ2         |
+| 5p4pqXK         |
+| OxuHTKy         |
+| puIaeVY         |
+| XIP0mLK         |
+| 3C68Ifb         |
+| Rz35HqB         |
+| q7h4J4p         |
+| uY5VpHG         |
+| VEKr2H6         |
+| 2YD4vBJ         |
+| SMTdGdZ         |
+| KPYKLMK         |
+| 4fas1nR         |
+| I5iGlka         |
+| UGR4RRP         |
+| fgEuHl9         |
+| UKI44Ds         |
+| 0tMlz6C         |
+| y8XvLJU         |
+| vC0FOkw         |
+| gIKBnAz         |
+| HOyLl7f         |
+| WxLRx0l         |
+| BZOgnHF         |
+| hoGV31F         |
+| O8lUITx         |
+| ZEvSsRG         |
+| mosDIB2         |
+| LYcDj5o         |
+| eupl8li         |
+| P4iE0Qd         |
+| LCSwkee         |
+| GIDJAGL         |
+| 62oar7H         |
+| TpE2hUf         |
+| G9srCTR         |
+| 5auwaEn         |
+| CwmUD0R         |
+| xVECIIZ         |
+| V6LnjTE         |
+| a6iEeSE         |
+| ZuSIMCn         |
+| wkhajyT         |
+| aZ6RnqS         |
+| zXCh3do         |
+| e7sJgw5         |
+| lImLThV         |
+| sMfAT4e         |
+| YYwuLxU         |
+| RpHo8YT         |
+| G62kKH4         |
+| SXfQZre         |
+| 14KOcjb         |
+| USlY7su         |
+| voK1xYa         |
+| qi7n7PH         |
+| 4E9IOMH         |
+| G85clUS         |
+| VXpC0tP         |
+| I6Z9vZ7         |
+| cYWuCFc         |
+| JtgVfAe         |
+| 8NZJiSJ         |
+| GCptoTH         |
+| OiGdwlF         |
+| U6kEqmW         |
+| ttVm7hh         |
+| nl0VO25         |
+| VXKBSps         |
+| yIWNJ6j         |
+| R8ApPYd         |
+| mNG4lAV         |
+| 2mXSZxi         |
+| n8nfOjh         |
+| CWD5Pz3         |
+| MxwWuQl         |
+| 0K06Amp         |
+| JAhTsI6         |
+| d0AVbWY         |
+| eJtrKQx         |
+| IuFDOjL         |
+| F7S5oTu         |
+| LxPl82d         |
+| aGqr0iR         |
+| UUxRmZ9         |
+| jsFs8Jk         |
+| MxcLnUA         |
+| 9DWkxKZ         |
+| bjBtF3V         |
+| eMVGqKW         |
+| UFmGOo9         |
+| I0PBbJc         |
+| 9SaQudF         |
+| LDk10Om         |
+| 53SJKvX         |
+| DYtdkho         |
+| RgMCYDd         |
+| 0YiXybh         |
+| 64cLOND         |
+| SVfL4eS         |
+| HYkaCga         |
+| kYDeWl5         |
+| eg9dM7r         |
+| qAAXtAR         |
+| 1hZGx0P         |
+| AnRK2GM         |
+| ZnCCT9L         |
+| RSQgrzO         |
+| QXYth0q         |
+| ln2xYSy         |
+| iV2UY2C         |
+| rEwPDKm         |
+| xD0bf6H         |
+| Dd7dTE9         |
+| FxZUPSR         |
+| Y95uYr6         |
+| uuOF7iK         |
+| 2nIGRwH         |
+| kIgXzPV         |
+| J42aDU2         |
+| ua74wfC         |
+| hY9y4Xn         |
+| JaCDdiv         |
+| 2Y1lzuE         |
+| Ps564I2         |
+| QSaWII8         |
+| ZdDDtvO         |
+| gk6whav         |
+| hiTNThB         |
+| LeOgwig         |
+| A6WEZIz         |
+| hcLcLa9         |
+| CmHC816         |
+| UX2qR32         |
+| UHf06UD         |
+| eZSbJWN         |
+| ehih7cG         |
+| 0QJCJTR         |
+| 4429FyZ         |
+| ivzKLaZ         |
+| NPU2fYv         |
+| MIB6M66         |
+| TVg7sRH         |
+| zs8AYze         |
+| BB672Ml         |
+| symaf79         |
+| fCY81Km         |
+| dB2FQwp         |
+| wknnIDu         |
++-----------------+
+1970 rows in set (0.04 sec)
+
++--------------------+--------+
+| Position           | salary |
++--------------------+--------+
+| WqBlQ9wQ           | 0.00   |
+| B0JKhCw5           | 0.20   |
+| 95BrUSJR           | 0.31   |
+| DCScE6Yi           | 0.41   |
+| VdA6S4Af           | 0.56   |
+| tawB0Rkl           | 0.59   |
+| WZ3Vr86j           | 0.75   |
+| FfFvzkK            | 0.79   |
+| SZY8un6Q           | 0.85   |
+| yBqyL05f           | 0.86   |
+| Z4yimK1w           | 0.94   |
+| L9rKh7dE           | 1.00   |
+| FGhW2kzK           | 1.10   |
+| 1xYMjU2X           | 1.13   |
+| vsqe4gwg           | 1.32   |
+| kaFvq2lU           | 1.44   |
+| Iudc5Svw           | 1.64   |
+| 9uFloor9           | 1.67   |
+| C89mbg2s           | 1.97   |
+| CmDHAcHI           | 1.98   |
+| LuIu83Tr           | 2.05   |
+| nJrUPFvI           | 2.09   |
+| d25auwaE           | 2.17   |
+| ooWulYqo           | 2.27   |
+| fFYzeVy5           | 2.41   |
+| Zya70ODa           | 2.44   |
+| fUkUs1eZ           | 2.64   |
+| rSBhZBlN           | 2.82   |
+| nvTuOrat           | 2.84   |
+| J6ONDbOW           | 2.93   |
+| vMtWO87D           | 3.13   |
+| ETHn7pu7           | 3.30   |
+| kFd4HqXD           | 3.34   |
+| BbJcpenJ           | 3.43   |
+| 4eqtaFU7           | 3.51   |
+| c2l8QBvC           | 3.54   |
+| yHTXnxUF           | 3.73   |
+| TtZUX8vr           | 3.74   |
+| Oijw3yCM           | 3.77   |
+| kmPL1zYk           | 3.81   |
+| 27K2ovfA           | 3.97   |
+| 48OEUhn5           | 4.16   |
+| SxjOvPHK           | 4.35   |
+| hBhTKeE5           | 4.38   |
+| ng14pBry           | 4.47   |
+| yk1An84m           | 4.63   |
+| QSzgts0B           | 4.82   |
+| iaddbXee           | 4.92   |
+| 6u5IYXtP           | 5.00   |
+| gtShrdNI           | 5.06   |
+| cIGeG2bQ           | 5.18   |
+| zldVI5Zu           | 5.35   |
+| kHTZN2JZ           | 5.36   |
+| rTEq5lSF           | 5.39   |
+| XRCCbBZA           | 5.44   |
+| ehih7cGH           | 5.48   |
+| fnILvWHe           | 5.50   |
+| pkOMawQS           | 5.56   |
+| YCmUUSlY           | 5.61   |
+| C7sTTCIU           | 5.77   |
+| 5TrZUfJR           | 5.95   |
+| YztHohq0           | 6.13   |
+| gnYFT2hl           | 6.21   |
+| lr7NNsAp           | 6.23   |
+| M74FI34F           | 6.39   |
+| WW2Y6HQX           | 6.42   |
+| ieikRhsz           | 6.50   |
+| M8TUcfpn           | 6.56   |
+| V5adG8QT           | 6.70   |
+| 34yV8QuV           | 6.71   |
+| Lpy3eEKM           | 6.73   |
+| ThDuAERq           | 6.87   |
+| wyPpyiKG           | 6.93   |
+| VGlfOZHN           | 7.07   |
+| ouV6TgBU           | 7.21   |
+| RM8BVLxb           | 7.55   |
+| r9yaPX8G           | 7.64   |
+| DqnUQ5HK           | 7.65   |
+| LexuWwki           | 7.76   |
+| v4TVFgMk           | 7.89   |
+| q49TiNXw           | 8.10   |
+| byZoyDHe           | 8.16   |
+| fHb1WO8A           | 8.25   |
+| QQe5Kvxo           | 8.29   |
+| 2lpp0wnU           | 8.31   |
+| V6r76B11           | 8.48   |
+| UhiTNThB           | 8.67   |
+| 90RX8KME           | 8.70   |
+| rgErkCLm           | 8.75   |
+| KBOdHmZo           | 8.85   |
+| Student Worker I   | 9.00   |
+| 9168oEiJ           | 9.06   |
+| ePOtL7u8           | 9.07   |
+| aikWBMkU           | 9.18   |
+| DyeI64AE           | 9.22   |
+| KeDoPpiG           | 9.36   |
+| 1nitmVos           | 9.42   |
+| fHbZroB7           | 9.56   |
+| 49iRJt7r           | 9.64   |
+| mNq3XvlJ           | 9.71   |
+| ys6BZVQs           | 9.76   |
+| NiBDIQBj           | 9.83   |
+| ZRLqAWL3           | 9.89   |
+| 9KBdlImL           | 9.99   |
+| Xts6UC9z           | 10.00  |
+| y74RV2XZ           | 10.09  |
+| n6cmAUUx           | 10.17  |
+| rXDbsdCf           | 10.21  |
+| hfAkq4dO           | 10.33  |
+| rcZBFXO6           | 10.50  |
+| 4SSzQ3yX           | 10.64  |
+| c17Zaiiy           | 10.67  |
+| Y0haIFUi           | 10.83  |
+| myEsbxtW           | 10.90  |
+| VRspJi1W           | 10.93  |
+| M5QwXlte           | 10.96  |
+| 68FLeVwR           | 10.97  |
+| 3STyqHP0           | 10.98  |
+| InJl5HdI           | 10.99  |
+| Student Worker II  | 11.00  |
+| CjpHy9A2           | 11.07  |
+| OVWtYeIf           | 11.08  |
+| 5krkaAAR           | 11.09  |
+| 1qV4lSLJ           | 11.12  |
+| WBGZrSyB           | 11.36  |
+| MVWgbiSt           | 11.37  |
+| fi6jyYws           | 11.41  |
+| afHlJV0Y           | 11.70  |
+| gQsNKONF           | 11.89  |
+| SxjvWAW7           | 11.93  |
+| Student Worker III | 12.00  |
+| gUp5mGLD           | 12.02  |
+| Keh2WG4Q           | 12.17  |
+| h1Z7tCz8           | 12.38  |
+| tOkz8uRA           | 12.43  |
+| DHJW5sTH           | 12.46  |
+| A9SrIDhe           | 12.55  |
+| RNDFgTTl           | 12.58  |
+| 2WLqldBM           | 12.71  |
+| VksSOXrc           | 12.78  |
+| 5qwaUmMa           | 13.21  |
+| XQIId35y           | 13.53  |
+| 0Qi6eY6L           | 13.60  |
+| oV9rkRYk           | 13.61  |
+| IhAS0PZz           | 13.65  |
+| syr9Sxne           | 13.72  |
+| ikMp0vaq           | 13.79  |
+| 5W5B4pO7           | 13.80  |
+| KWkbdD1u           | 14.17  |
+| 1lB7vvFz           | 14.24  |
+| H9URO8lU           | 14.34  |
+| McCkiTuZ           | 14.39  |
+| n9Nndbfh           | 14.67  |
+| RwXNZ3nr           | 14.75  |
+| K2jbS2pu           | 15.02  |
+| 8MTxx5pu           | 15.07  |
+| MDZi5wTh           | 15.10  |
+| mQ3VevA8           | 15.22  |
+| h1yBOrKj           | 15.33  |
+| zgPxlIxe           | 15.53  |
+| DI9Uh94n           | 15.64  |
+| YPhw9R4F           | 15.65  |
+| EvSTDg17           | 15.75  |
+| DiGd7tZZ           | 15.93  |
+| xVCoWgqr           | 16.00  |
+| 3dXTcwME           | 16.02  |
+| OmVxOXqd           | 16.04  |
+| bMuJLVYp           | 16.19  |
+| dLx5SGkN           | 16.68  |
+| XmojXq9G           | 16.78  |
+| FP9Blv8U           | 16.87  |
+| M0YiNovL           | 16.89  |
+| H9SMWYHk           | 16.96  |
+| 7MIjhRxG           | 16.99  |
+| makSawkP           | 17.09  |
+| LJPWJm8t           | 17.10  |
+| XosRt1pp           | 17.12  |
+| dLA552rt           | 17.14  |
+| VDtTX9gm           | 17.19  |
+| CLkwuyDa           | 17.33  |
+| ATGb76vB           | 17.53  |
+| S4msj1Ec           | 17.79  |
+| fmrGVSm3           | 17.90  |
+| knt5qTcE           | 17.91  |
+| MVDZpREL           | 17.94  |
+| AgJ9qNPz           | 18.08  |
+| Ps564I28           | 18.19  |
+| 9MfIkfBg           | 18.44  |
+| vfPSG8id           | 18.45  |
+| p9LAn077           | 18.50  |
+| 47XDk1ol           | 18.81  |
+| cwQWpJ2N           | 19.00  |
+| tYXCeP2U           | 19.08  |
+| Mejf196Z           | 19.26  |
+| Z0CSBmZg           | 19.29  |
+| SFGVgFj4           | 19.38  |
+| uXkn1Xvn           | 19.40  |
+| b0IQFqJM           | 19.44  |
+| 0YRy0cbm           | 19.48  |
+| NMYEXjVy           | 19.60  |
+| NrfS7zfO           | 19.62  |
+| hbJxksfT           | 19.72  |
+| xREndEsB           | 19.75  |
+| lX42pMwf           | 19.83  |
+| 2xx5SzOP           | 19.93  |
+| hX4xodzj           | 20.04  |
+| PWJYBjHJ           | 20.06  |
+| nc7wCmHC           | 20.12  |
+| 9ppu1P4L           | 20.15  |
+| YwITDtpJ           | 20.32  |
+| ggYw4dBX           | 20.36  |
+| S06dwjOO           | 20.61  |
+| JbmQZxPf           | 20.68  |
+| k5YcjIDi           | 20.73  |
+| lpomPuds           | 20.88  |
+| l8XlxDIj           | 20.97  |
+| X75xv3t4           | 21.23  |
+| fEdurSuw           | 21.29  |
+| Y4M9k8AI           | 21.39  |
+| msCO0WDu           | 21.48  |
+| RX2ndFnt           | 22.02  |
+| 9Z4dn9oi           | 22.04  |
+| 8Q8rW6Xa           | 22.11  |
+| a95umOLV           | 22.16  |
+| k7NB5Ivt           | 22.23  |
+| Q3o8CRDt           | 22.34  |
+| DX1w0qhj           | 22.37  |
+| rmDEpNGr           | 22.38  |
+| 8qPTe9UI           | 22.45  |
+| X3hszMdl           | 22.66  |
+| ZdcowuoP           | 22.83  |
+| eLMP4bN3           | 22.92  |
+| udFZYEMI           | 23.08  |
+| rtYodxvd           | 23.14  |
+| nProph7h           | 23.21  |
+| HynBJYIN           | 23.29  |
+| 1MguokYD           | 23.36  |
+| Jlyg24S5           | 23.60  |
+| oTBnBU3n           | 23.72  |
+| dE54ZUcR           | 23.84  |
+| TuN5onR8           | 23.85  |
+| yy4BrJQP           | 24.05  |
+| NBznAjzI           | 24.06  |
+| AJHPVW7A           | 24.07  |
+| ccAAZKoy           | 24.13  |
+| dgJYe1cq           | 24.27  |
+| upNxt1RL           | 24.31  |
+| qbB580J4           | 24.46  |
+| nH86EwcL           | 24.49  |
+| BNao7LlK           | 24.51  |
+| JnUMpLa7           | 24.60  |
+| ehSraUFd           | 24.63  |
+| iSNGpQUc           | 24.72  |
+| KJkn5qke           | 24.75  |
+| 2kEWViVf           | 24.87  |
+| cKQ5DlFT           | 24.99  |
+| iPB2LWkI           | 25.29  |
+| luQLUFE4           | 25.63  |
+| lahMK2ny           | 25.93  |
+| 5pI6rmRd           | 26.20  |
+| rBZgnfLo           | 26.31  |
+| crNvtpwG           | 26.36  |
+| B2FQwpot           | 26.39  |
+| FYuOMkYH           | 26.44  |
+| l94Iv1uc           | 26.45  |
+| qbxummkH           | 26.61  |
+| y3uBaUMi           | 26.71  |
+| BEBNue7b           | 26.93  |
+| G5uHdY9s           | 27.00  |
+| i8XWPrWG           | 27.02  |
+| ZIaWDsaM           | 27.06  |
+| swFnJqon           | 27.12  |
+| bfnzKspi           | 27.16  |
+| Ldwi1r0T           | 27.25  |
+| njTEhUqY           | 27.29  |
+| UkYn6cnB           | 27.53  |
+| s58prfpx           | 27.70  |
+| oyBPt7Fb           | 27.71  |
+| a551VGjK           | 27.74  |
+| TZLNngCM           | 27.85  |
+| JEdmm09Z           | 27.93  |
+| m0WUxHYY           | 28.11  |
+| 2ThhTmg8           | 28.22  |
+| pZKlreGp           | 28.31  |
+| dOZmsTi5           | 28.37  |
+| jjXuAVHQ           | 28.41  |
+| j04LkSoN           | 28.81  |
+| cQDvPUx3           | 28.96  |
+| xhu6gwWQ           | 29.03  |
+| RTR51Ftt           | 29.08  |
+| dysOMmDt           | 29.12  |
+| e31crGrc           | 29.14  |
+| mhC3QboH           | 29.23  |
+| mSKK0k32           | 29.56  |
+| idteLAVJ           | 29.61  |
+| kCu0UpHl           | 29.63  |
+| yVUxWAPF           | 29.74  |
+| N3Bt8DCR           | 29.93  |
+| Xu2u2nv8           | 30.05  |
+| SOjKy81s           | 30.39  |
+| Yzg9x2DK           | 30.68  |
+| 0SC6cqQ9           | 30.77  |
+| pkh33Hyl           | 30.86  |
+| FDQomdar           | 30.92  |
+| RwW6wd2h           | 31.33  |
+| VRjLmtQ6           | 31.36  |
+| 6hBDuhCJ           | 31.40  |
+| ghkPBipo           | 31.47  |
+| loiivhOm           | 31.57  |
+| cqSqHSQO           | 31.78  |
+| KDFOfn0M           | 31.79  |
+| botuQQgm           | 31.93  |
+| 32dhb4J6           | 31.97  |
+| DqKEpC8i           | 32.00  |
+| Rq1vKRpH           | 32.08  |
+| gg8lgXng           | 32.26  |
+| n95ZbIWr           | 32.36  |
+| nqS3mtvf           | 32.45  |
+| tLYbjRLE           | 32.48  |
+| wGh1Hn9h           | 32.76  |
+| fL2kUqTw           | 32.82  |
+| olqZeueA           | 32.88  |
+| 3ZKzEsTF           | 32.91  |
+| DU7SNgge           | 33.18  |
+| gkD9QoGf           | 33.23  |
+| WxhFzddV           | 33.27  |
+| ln2xYSy7           | 33.28  |
+| rtLn7jce           | 33.39  |
+| enDeAM7B           | 33.45  |
+| TcmWrLLT           | 33.72  |
+| z5nGQbhj           | 33.79  |
+| cF22d0nX           | 33.94  |
+| ynusUMUV           | 33.97  |
+| tAfdhEWn           | 34.03  |
+| jdoxvw29           | 34.04  |
+| cUDjkXrf           | 34.06  |
+| ACX6wJ3L           | 34.11  |
+| AtAKtWky           | 34.14  |
+| IwtM6pyU           | 34.15  |
+| F38Wh2QP           | 34.56  |
+| ThbfWwXx           | 34.68  |
+| eBETST0b           | 34.77  |
+| JMh5uOk5           | 34.79  |
+| cE9jrWsR           | 34.95  |
+| v0aZUOvm           | 34.99  |
+| qvhmcmPK           | 35.10  |
+| rXUKPqBV           | 35.13  |
+| n9yrSOjc           | 35.14  |
+| 4cLONDD9           | 35.23  |
+| ZHmr9XDI           | 35.26  |
+| KZMdqo7c           | 35.48  |
+| 9MjkTI8r           | 35.57  |
+| NCTGoDyE           | 35.79  |
+| OKaFiPI2           | 35.86  |
+| O0bwkCPq           | 36.05  |
+| ygTtiVkA           | 36.06  |
+| IFxDfXeT           | 36.12  |
+| WuP86CDN           | 36.26  |
+| xY4T1ZuD           | 36.42  |
+| 2v8TM4EW           | 36.61  |
+| 9Rx6sDxS           | 36.63  |
+| GoEDoAwN           | 36.65  |
+| 8HUxOTsp           | 36.82  |
+| RlbvZB0h           | 36.84  |
+| XnXytwqg           | 36.86  |
+| oIoQCOZV           | 37.21  |
+| tlPgtJdF           | 37.25  |
+| bJU094AC           | 37.30  |
+| 6S6lvG8T           | 37.40  |
+| cuhOKkpl           | 37.54  |
+| M8xVkp5K           | 37.71  |
+| g5ICfRBE           | 37.76  |
+| 9XzEQo0r           | 37.78  |
+| MAPNXEy0           | 37.79  |
+| bjsjo1gw           | 37.87  |
+| 8mIXHVmY           | 37.94  |
+| nUTTTKwX           | 38.01  |
+| vTjPNQ4j           | 38.24  |
+| reqhQoXc           | 38.25  |
+| LuaEa7h6           | 38.33  |
+| VbfEdJD1           | 38.59  |
+| 81xwpuJz           | 38.63  |
+| l8r8hKZn           | 38.98  |
+| dMCKUi4h           | 39.10  |
+| G8atv8Cj           | 39.24  |
+| IJvRS4pd           | 39.31  |
+| ajmiJEXn           | 39.39  |
+| tjzVhMnP           | 39.41  |
+| Hkj1Oamb           | 39.43  |
+| IB9fUO8i           | 39.91  |
+| WTiHE5VK           | 39.92  |
+| g3aXJW8M           | 39.93  |
+| BSVXfMmy           | 40.12  |
+| PvZZTeMM           | 40.34  |
+| evXLNTR5           | 40.40  |
+| wvkeWxnc           | 40.53  |
+| q8J5CTXa           | 40.59  |
+| NP20PZtq           | 40.71  |
+| xL8LfWc2           | 40.85  |
+| 2pEzwW8O           | 40.98  |
+| RVpKiZXG           | 40.99  |
+| zj6FlQWv           | 41.27  |
+| TYmj9tuT           | 41.42  |
+| i0q0m4cc           | 41.44  |
+| ZqHRftHY           | 41.45  |
+| my5T21Q6           | 41.52  |
+| K5RhRXdC           | 41.60  |
+| HpE4Tux5           | 41.81  |
+| 9ZgD0NfM           | 41.86  |
+| zQCSkqG7           | 41.87  |
+| DU3jAONg           | 41.89  |
+| LvWuvrNy           | 42.02  |
+| NCwGYZwD           | 42.06  |
+| QG1SV61D           | 42.09  |
+| HeVCGxOA           | 42.14  |
+| H809Wl49           | 42.52  |
+| 9oFGgd9T           | 42.59  |
+| 9NN8fCxb           | 42.69  |
+| hnSRqcou           | 42.76  |
+| GJ8NRCbb           | 42.83  |
+| i7Dc9CZM           | 42.86  |
+| ELplAzAC           | 42.89  |
+| cgglsTSA           | 42.94  |
+| tEzrpWXR           | 42.95  |
+| KLMKZIzn           | 43.00  |
+| rsUiYmSX           | 43.23  |
+| gvbQvcJf           | 43.47  |
+| zjJC0L0K           | 43.52  |
+| S6PUjEoD           | 43.62  |
+| oORc958d           | 43.64  |
+| uXKvrjGa           | 43.84  |
+| W4iO1q5p           | 44.15  |
+| Djaa4jP1           | 44.19  |
+| 8FqZP9wn           | 44.29  |
+| VQXfFfjf           | 44.37  |
+| 7EBt5KqW           | 44.49  |
+| 7lIS8gUF           | 44.55  |
+| DigXui1O           | 44.98  |
+| RmCwJZsQ           | 45.09  |
+| Kz5b0rNC           | 45.40  |
+| Lt6nuZ78           | 45.42  |
+| O8YRJwrf           | 45.68  |
+| mzs9IJ2m           | 45.70  |
+| hY95uYr6           | 45.73  |
+| o63pyteb           | 45.94  |
+| CdDbYAbt           | 46.00  |
+| JuvMJqw0           | 46.28  |
+| mwq5h8CI           | 46.51  |
+| 1zN1lBYH           | 46.56  |
+| pXN6AZXv           | 46.81  |
+| fhcl4UIx           | 46.82  |
+| JcrOAVLp           | 46.99  |
+| IG8uZG9H           | 47.12  |
+| LXQB3jcv           | 47.44  |
+| 76ea8QhH           | 47.52  |
+| DINDDvt8           | 47.53  |
+| KMfysRcc           | 47.60  |
+| YS5o6OpK           | 47.61  |
+| cDeIoVwE           | 47.79  |
+| BcDW4zj9           | 47.87  |
+| Ul0fVQ9U           | 47.98  |
+| ns9cucoj           | 48.00  |
+| Sranp1VP           | 48.20  |
+| oyeMblAA           | 48.25  |
+| IAuUJLTs           | 48.26  |
+| Xi5xr84P           | 48.65  |
+| w7sFx0PD           | 48.80  |
+| OF5oAM6S           | 48.96  |
+| RtkMV7pt           | 49.00  |
+| 4A5hFklf           | 49.16  |
+| VlQGxyLJ           | 49.18  |
+| 4sr21C2i           | 49.28  |
+| I9aB3YH5           | 49.33  |
+| xVOOUsTG           | 49.41  |
+| FiOpXvlK           | 49.56  |
+| wfQJLpdU           | 49.66  |
+| rgncJVX8           | 49.78  |
+| 9TezycOo           | 49.84  |
+| 1RXKUeoi           | 49.94  |
+| srCTR2TP           | 50.00  |
+| XaLHbavJ           | 50.07  |
+| JgHdSLnh           | 50.12  |
+| c1Rrk7Rn           | 50.18  |
+| u6pnxJws           | 50.23  |
+| Nc8c1etR           | 50.27  |
+| bh9aZGFF           | 50.42  |
+| zHtdEiwF           | 50.56  |
+| puRkCf3C           | 50.65  |
+| cNnLIwJm           | 50.68  |
+| zYHw3xdX           | 50.75  |
+| Udb2SkPl           | 50.80  |
+| Rin8IEe3           | 50.86  |
+| 59Yaf1Vd           | 50.91  |
+| HDd7sV6m           | 51.00  |
+| IxzRpYC1           | 51.07  |
+| l8ZRqEee           | 51.10  |
+| YEQ4okY0           | 51.20  |
+| BhViixmj           | 51.53  |
+| K4TKx3Cj           | 51.57  |
+| F4IKlKmN           | 51.61  |
+| PNfTdMjJ           | 51.71  |
+| MlNeEXo9           | 51.92  |
+| j4uhbJ4l           | 52.13  |
+| 6SyJLC1j           | 52.15  |
+| iK62eDUR           | 52.37  |
+| 5DIIWDsC           | 52.62  |
+| 2N1HqY5O           | 52.74  |
+| A5yaClPu           | 52.99  |
+| s83M9mx1           | 53.35  |
+| c0YyES45           | 53.42  |
+| LUz1xZa3           | 53.56  |
+| UDanjCup           | 53.77  |
+| mEeRMGqu           | 53.80  |
+| 3Zr87kVV           | 53.97  |
+| e3wXIoqL           | 54.24  |
+| Yo0l0Dq0           | 54.28  |
+| p9DygYJH           | 54.33  |
+| 0kHh8Ml7           | 54.40  |
+| FqP5nrAS           | 54.41  |
+| Q496Igot           | 54.42  |
+| pzORCPO4           | 54.61  |
+| TcpyfaZJ           | 54.63  |
+| Xv7VnAmK           | 54.65  |
+| 5lkiWl4v           | 54.69  |
+| hnEeclEG           | 54.70  |
+| VKbfYgpS           | 54.90  |
+| 8k1VgPH2           | 54.93  |
+| qcDt3jkA           | 55.01  |
+| lxt1X0Ng           | 55.19  |
+| sKfy99zX           | 55.43  |
+| tdBVOCo0           | 55.45  |
+| oI6pgabi           | 55.46  |
+| pQ7viVUc           | 55.49  |
+| n8nfOjhS           | 55.54  |
+| mYIJtgVf           | 55.61  |
+| nrWEn9rI           | 55.64  |
+| mmO6ThTB           | 55.65  |
+| XALEVHS4           | 55.71  |
+| wrpVfy7F           | 55.99  |
+| GU3hzuni           | 56.13  |
+| 6JVcJZhm           | 56.15  |
+| zJrC7bHV           | 56.29  |
+| f5BVBwuI           | 56.39  |
+| Tn69Jm49           | 56.41  |
+| 36AvkRy0           | 56.51  |
+| ORpRGMJL           | 56.81  |
+| oE1b9ZZi           | 57.07  |
+| y9ekdfXo           | 57.24  |
+| 1lteumna           | 57.47  |
+| APav13VD           | 57.49  |
+| g5TgLiF5           | 57.59  |
+| GFhPr6BI           | 57.67  |
+| 59J42aDU           | 57.84  |
+| QP5po0VP           | 58.03  |
+| nVdXbGIv           | 58.05  |
+| yR2nIGRw           | 58.24  |
+| oNe543f5           | 58.27  |
+| 27SmjL0n           | 58.31  |
+| AhgXQ78u           | 58.34  |
+| J2cCVH2Z           | 58.35  |
+| 2VfEAsLD           | 58.46  |
+| SJHfxrdz           | 58.50  |
+| LNlekIRj           | 58.58  |
+| mMK97hGr           | 58.65  |
+| gT6m5Nwa           | 58.67  |
+| jD5q5bOs           | 58.77  |
+| kHFswuzl           | 59.01  |
+| QePq1CRh           | 59.29  |
+| zR3OeQe7           | 59.30  |
+| L7XfpWIX           | 59.42  |
+| SwkeeJyg           | 59.46  |
+| mkaRVF3J           | 59.59  |
+| 31oRI8AF           | 59.77  |
+| RgMMoMgF           | 59.89  |
+| oKTYL4SN           | 59.91  |
+| r9lxQQ3D           | 59.92  |
+| sl4Eu1ho           | 60.04  |
+| 93RvAQLh           | 60.07  |
+| djEnk9Qg           | 60.08  |
+| hxDpRFhn           | 60.17  |
+| OOO2pMYd           | 60.21  |
+| eKHNbYXy           | 60.24  |
+| RJbKKwJI           | 60.48  |
+| NRHkzWnq           | 60.53  |
+| yRl7LewF           | 60.61  |
+| Nv7DSqKy           | 60.68  |
+| 2qZBs1Su           | 60.77  |
+| ky8wgSgk           | 60.78  |
+| 82Bo0Qk1           | 60.87  |
+| BuNbP2eJ           | 61.07  |
+| UQNC5p40           | 61.23  |
+| 755Qx8Gp           | 61.43  |
+| LVLDk10O           | 61.46  |
+| 6dkfKIfy           | 61.56  |
+| nndphKh0           | 61.57  |
+| fF33tM2x           | 61.63  |
+| 9lzt7haM           | 61.74  |
+| DkclQrjJ           | 61.76  |
+| por35kMy           | 61.84  |
+| pgiQ1zy6           | 61.87  |
+| OhHMUGR4           | 61.93  |
+| KdwOOOxE           | 61.95  |
+| PH1oMOLR           | 62.09  |
+| 1lM1D4tt           | 62.11  |
+| IAmWMFhM           | 62.17  |
+| WXXrQsqB           | 62.34  |
+| UljdJvZ2           | 62.43  |
+| ElG85clU           | 62.55  |
+| cEsqrwmJ           | 62.78  |
+| SLwycK6N           | 62.99  |
+| SswPy8V5           | 63.25  |
+| 9qYTNOQK           | 63.35  |
+| ZdMih1lT           | 63.37  |
+| b3yOjmNN           | 63.51  |
+| lWsva0SU           | 63.66  |
+| DfGlnYhJ           | 63.83  |
+| Uu60v5q8           | 63.86  |
+| pS93ehMx           | 63.96  |
+| z4FYfYy5           | 64.02  |
+| vk5zXuR9           | 64.04  |
+| S5oTu8tb           | 64.13  |
+| IbsJRyfx           | 64.25  |
+| CxUPGhAk           | 64.49  |
+| 94bGcYQv           | 64.69  |
+| 6Wc4WI8l           | 64.78  |
+| pmduL7Vy           | 65.06  |
+| usJcunuV           | 65.14  |
+| biwBRD37           | 65.23  |
+| 6dr2pLqJ           | 65.30  |
+| o59QWsPR           | 65.46  |
+| jY83TK8m           | 65.47  |
+| cDPbNrYb           | 65.56  |
+| T6fCgW8E           | 65.59  |
+| ZjZul2Nm           | 65.79  |
+| UI9mYA18           | 65.94  |
+| Dlpvl6TW           | 66.05  |
+| 540JTMRg           | 66.07  |
+| iKPrJXYC           | 66.13  |
+| NfV6eRXy           | 66.32  |
+| 68FtXTiY           | 66.57  |
+| qcRSQgrz           | 66.89  |
+| DbFgxTcJ           | 66.95  |
+| PcSRWPwp           | 67.05  |
+| OKcpcjEM           | 67.17  |
+| aAlGscDS           | 67.22  |
+| wnWp6M8T           | 67.39  |
+| HpLbA2KH           | 67.41  |
+| pWqk7Bd9           | 67.42  |
+| buHBIKFq           | 67.56  |
+| KasHGnMt           | 67.98  |
+| sDRtj0DS           | 68.15  |
+| EwDhFwqI           | 68.37  |
+| im7UPHOx           | 68.50  |
+| kPSZrToj           | 68.66  |
+| XepMU0Jb           | 68.67  |
+| Jbhn0YU3           | 68.77  |
+| t3yIFTAe           | 68.93  |
+| 6goMzNW6           | 69.00  |
+| 3br9a5Fa           | 69.08  |
+| 7b1FdROH           | 69.14  |
+| 7PITnDp9           | 69.19  |
+| OevgATTL           | 69.27  |
+| XJ41TNdH           | 69.34  |
+| v21gM8SV           | 69.42  |
+| fZwjyq1K           | 69.46  |
+| 2fmsj8WZ           | 69.62  |
+| rt7fCVmX           | 69.64  |
+| lQUyNibh           | 69.83  |
+| esnB4mh1           | 69.98  |
+| 8sXbjnil           | 70.09  |
+| 6NtuNuRP           | 70.15  |
+| 4RLqcnAs           | 70.24  |
+| 8QojJxaW           | 70.50  |
+| Kq3W0X6Q           | 70.63  |
+| 9RMlnisu           | 70.93  |
+| Uc7IGhEn           | 71.16  |
+| pHwSEl4w           | 71.21  |
+| MGJYIIJq           | 71.24  |
+| GaTCHr2K           | 71.28  |
+| 3L5P6fQI           | 71.33  |
+| QOgwxhHx           | 71.34  |
+| 8CS6LSud           | 71.35  |
+| AzQmljHU           | 71.38  |
+| fJ36976G           | 71.45  |
+| 1XhUORvC           | 71.46  |
+| r7BfwOkd           | 71.60  |
+| xhYf7Wbn           | 71.69  |
+| y36Xivgg           | 72.01  |
+| bi1eni0V           | 72.12  |
+| msuTjH1h           | 72.13  |
+| Yac7lLIT           | 72.14  |
+| azdNMK66           | 72.27  |
+| QS2Uchzd           | 72.28  |
+| rmZ9mvzU           | 72.34  |
+| I3dGdJQS           | 72.36  |
+| d7kHTjGe           | 72.40  |
+| wXvA1EYE           | 72.67  |
+| 9pRMhHN1           | 72.90  |
+| jwKHhrTr           | 73.24  |
+| ZFbB2auO           | 73.32  |
+| J4JNYTuk           | 73.54  |
+| 4kPdzHsj           | 73.56  |
+| DHNfIP5F           | 73.57  |
+| v8EW4q35           | 73.67  |
+| tVBWfoim           | 73.76  |
+| h2Nh722A           | 73.90  |
+| UxxEa9tD           | 73.92  |
+| Uf0WVBlV           | 74.03  |
+| La9fp22b           | 74.12  |
+| AuaCH2z4           | 74.21  |
+| 8S29H3ZZ           | 74.52  |
+| 2NdkKqpD           | 74.66  |
+| alZRg01X           | 74.69  |
+| n71odb6f           | 74.85  |
+| U6kEqmWw           | 74.91  |
+| 5rna7kT6           | 75.20  |
+| zZ3dRAMP           | 75.33  |
+| czwFLcxF           | 75.36  |
+| od8Ld7O1           | 75.42  |
+| w2Go6EHK           | 75.59  |
+| FkbSoHWj           | 75.63  |
+| W0SZBk1d           | 75.72  |
+| iCYstmf0           | 75.76  |
+| kjf96PwI           | 75.85  |
+| HnKu8N03           | 76.01  |
+| jHZcqpU6           | 76.09  |
+| JCDY8hA7           | 76.16  |
+| NheU8ekL           | 76.19  |
+| mN4xiaiZ           | 76.24  |
+| 4qXYpkhV           | 76.47  |
+| 5BFyKQwr           | 76.48  |
+| Z0mOphyQ           | 76.63  |
+| P8HKEmx4           | 76.98  |
+| xOvFKrKj           | 77.00  |
+| 3l17Dc1V           | 77.09  |
+| PIZxH3Gh           | 77.10  |
+| uZ2kLiJR           | 77.26  |
+| Tipx7wXZ           | 77.34  |
+| vG7P9xKD           | 77.46  |
+| UrFQRWdt           | 77.62  |
+| vNDsFKsW           | 77.68  |
+| tNHJLImz           | 77.79  |
+| 6A1xa7m8           | 77.82  |
+| bpKPrMGf           | 77.83  |
+| xPi3TZY1           | 77.89  |
+| 2Yms7X86           | 78.06  |
+| yBgeIV7g           | 78.14  |
+| JmBv2HPW           | 78.17  |
+| mXgOJXxJ           | 78.31  |
+| y36HWxLR           | 78.32  |
+| VIGm5p4p           | 78.36  |
+| G0agbTTK           | 78.43  |
+| Ut9Tihyx           | 78.48  |
+| 49pDdaZG           | 78.51  |
+| SBWPa3Eg           | 78.55  |
+| UfFSRHZI           | 78.76  |
+| tza5a6DA           | 78.80  |
+| aYiA4bZv           | 78.91  |
+| dmgK3GAV           | 78.98  |
+| z0n80r0Y           | 79.29  |
+| NhzQX8uj           | 79.32  |
+| o5BYp6mH           | 79.33  |
+| Hg786nZ6           | 79.43  |
+| jTBETRkW           | 79.45  |
+| OMpErvFz           | 79.56  |
+| iSH1TbnV           | 79.65  |
+| 4dIUzpiC           | 79.84  |
+| ydiYYo1L           | 79.86  |
+| mI5nq7H1           | 79.91  |
+| sjNc3p5f           | 79.94  |
+| LaL68CBt           | 80.16  |
+| NB9K8Dpe           | 80.18  |
+| rwxt2s1E           | 80.27  |
+| QRLZu7w3           | 80.40  |
+| 0bf6HZZc           | 80.57  |
+| 3QuEYnJZ           | 80.61  |
+| 4pHUMVeN           | 80.67  |
+| JeqbLzMS           | 80.74  |
+| FmXjtjbE           | 80.77  |
+| ROaAfZDA           | 80.89  |
+| WcygHjnJ           | 80.94  |
+| WlecJtiQ           | 81.05  |
+| I9EpDnUk           | 81.29  |
+| sqwUHq3G           | 81.39  |
+| COikGamc           | 81.54  |
+| vOcFEzUE           | 81.59  |
+| 3HG8GaNw           | 81.64  |
+| ED8N7Pwr           | 81.68  |
+| 5D2ua0ke           | 81.69  |
+| 42uKnfYt           | 82.17  |
+| TzUuNbid           | 82.42  |
+| 874QtUxv           | 82.51  |
+| FW57N9cn           | 82.60  |
+| zGpQtSb1           | 82.73  |
+| MhM7XKri           | 82.79  |
+| 1W95lxEO           | 82.85  |
+| 9TZTiUch           | 82.89  |
+| 4vqHXYcU           | 83.08  |
+| TujEuOri           | 83.23  |
+| NEGblAsu           | 83.32  |
+| rGeaMIz8           | 83.51  |
+| lnJ9n3vJ           | 83.85  |
+| Dm37jOMC           | 83.89  |
+| 3lxUmI90           | 83.98  |
+| K2J8s0Zo           | 84.07  |
+| B2twLMMS           | 84.33  |
+| 3ETsYKbD           | 84.35  |
+| 43YFLyoh           | 84.50  |
+| ATISIvAX           | 84.59  |
+| wcCC7POP           | 84.60  |
+| JUDV7DQ8           | 84.69  |
+| craX0j52           | 84.71  |
+| oibCy71l           | 84.72  |
+| OYPtOun3           | 85.02  |
+| dw6lmPM8           | 85.03  |
+| oYZm53OH           | 85.06  |
+| nNTuawC0           | 85.09  |
+| GbOmfaeC           | 85.16  |
+| g2FZI098           | 85.17  |
+| Cytjh2mm           | 85.19  |
+| ZoWUIrt9           | 85.24  |
+| VXxtwcPp           | 85.45  |
+| rIIUycgH           | 85.46  |
+| 2F8Jr7u1           | 85.62  |
+| n0HHtFZ5           | 85.96  |
+| NyPhSIIu           | 86.02  |
+| HtBexVVY           | 86.35  |
+| nDZEgEoH           | 86.58  |
+| VjHr1MLF           | 86.67  |
+| 0cRLGBXR           | 86.81  |
+| 47XWS2qV           | 86.82  |
+| nY5XIZp2           | 86.90  |
+| FuRsqlre           | 86.91  |
+| sfzKSIRL           | 87.01  |
+| T1NZkJPe           | 87.08  |
+| RWezLZuT           | 87.20  |
+| 3Ihy1fjX           | 87.24  |
+| kETlFtoB           | 87.26  |
+| lFafCOVU           | 87.41  |
+| 0V3e1wRu           | 87.47  |
+| dM1uHia6           | 87.51  |
+| fVqU8uRb           | 87.53  |
+| yJujH5HS           | 87.61  |
+| dlOjWgPu           | 87.70  |
+| KgfOX8Be           | 87.96  |
+| dleFFkaJ           | 87.98  |
+| UC4HRolr           | 88.05  |
+| hPExIV1H           | 88.06  |
+| DmHQQF9z           | 88.10  |
+| UjKQywJx           | 88.18  |
+| WqMIB6M6           | 88.52  |
+| 8OE3RFje           | 88.72  |
+| JizjQT0D           | 88.81  |
+| JxfVmFTD           | 88.84  |
+| X3oEg0qs           | 88.86  |
+| r7cJDPqc           | 88.96  |
+| j9Cq9KV8           | 89.06  |
+| wQBzeUhz           | 89.25  |
+| GkT4Li9C           | 89.29  |
+| z3ZxOEOQ           | 89.34  |
+| V3xHvhiX           | 89.54  |
+| S8MQVSSR           | 89.55  |
+| i1SFSF12           | 89.56  |
+| ZNAUR6yF           | 89.81  |
+| mQp1acLH           | 89.84  |
+| ppbK4OH1           | 89.92  |
+| JePFIXxg           | 90.19  |
+| xa9nws1P           | 90.43  |
+| OGBbAmdc           | 90.55  |
+| dfG2Vz0m           | 90.57  |
+| vCnCrFkr           | 90.59  |
+| wpd8KSnb           | 90.64  |
+| NFNqvLPp           | 90.68  |
+| cimFDaHR           | 90.90  |
+| Dx3IbV2R           | 91.14  |
+| ZDoOIWwd           | 91.18  |
+| sNWwD6Vw           | 91.62  |
+| ctxhrfHe           | 91.68  |
+| YE3YWsuf           | 91.71  |
+| UJU1Nsdt           | 91.75  |
+| B2nD2KU6           | 91.80  |
+| xA7VSuh4           | 91.92  |
+| 0ppWKRQQ           | 92.08  |
+| XdJTSJ6X           | 92.44  |
+| rUacHfxA           | 92.56  |
+| fPr6S0KB           | 92.85  |
+| T9qkKgLo           | 92.93  |
+| FLoRY4tz           | 93.11  |
+| QxQwQD4S           | 93.12  |
+| lsv5pG6I           | 93.19  |
+| MH3rPwfC           | 93.26  |
+| 1SkGPJvw           | 93.29  |
+| M2Tlh01v           | 93.79  |
+| orgIKBnA           | 93.89  |
+| 91JQtLZ3           | 93.92  |
+| kvx00Mnq           | 93.96  |
+| Le10Dt16           | 94.00  |
+| 1Nqt8FCc           | 94.30  |
+| cfRb7NPJ           | 94.58  |
+| TPyyzL6G           | 94.67  |
+| qwedXNRR           | 94.75  |
+| H2ciYHun           | 94.79  |
+| jy3ZDqa2           | 94.81  |
+| tXsaGq4s           | 94.94  |
+| Gq5JBrz2           | 94.98  |
+| qcM1fdhR           | 95.14  |
+| 2Y1lzuEt           | 95.49  |
+| oQr06dwD           | 95.64  |
+| PSXfQZre           | 95.65  |
+| W88gO8Rn           | 95.93  |
+| BEN0kwx4           | 95.95  |
+| NL1NKBDc           | 96.02  |
+| L51iKtbt           | 96.13  |
+| AqHyvcgh           | 96.19  |
+| AZZQlgHE           | 96.23  |
+| y4yNmosD           | 96.26  |
+| TH0Kn7X5           | 96.53  |
+| dH7tefn6           | 96.57  |
+| 41laD6jr           | 96.67  |
+| MXZQSrNq           | 96.80  |
+| F8LrfJ3r           | 96.81  |
+| x5qi7n7P           | 96.88  |
+| 11xDYIOy           | 97.12  |
+| B5ZVJE2M           | 97.27  |
+| X2JXcGMd           | 97.36  |
+| KfDzXHp5           | 97.37  |
+| gbxTwYJt           | 97.38  |
+| nTuLtB00           | 97.56  |
+| uKrIU5Y5           | 97.57  |
+| 9oTBOQWZ           | 97.63  |
+| fZBFuY3i           | 97.81  |
+| UmhHB2qf           | 97.83  |
+| nHc3SGuT           | 97.86  |
+| dBaDT20D           | 98.04  |
+| m3kOpDIU           | 98.13  |
+| 4lgLnhbz           | 98.20  |
+| Nn6BMYym           | 98.39  |
+| fHQKpJxu           | 98.40  |
+| XrWB7Za8           | 98.48  |
+| LomUQWRl           | 98.51  |
+| lISfRa20           | 98.55  |
+| 2aRnkHsn           | 98.58  |
+| 0K2zURn8           | 98.64  |
+| bEk2wlCE           | 98.73  |
+| QDx0yVKr           | 98.78  |
+| xYfiwKBK           | 99.13  |
+| Hr0EQEIi           | 99.48  |
+| vuqZZRrg           | 99.57  |
+| wP3fi5t4           | 99.78  |
+| 9iqrZuFr           | 99.83  |
+| 5ThezRCf           | 99.88  |
+| 0hjHNfx1           | 99.91  |
++--------------------+--------+
+952 rows in set (0.02 sec)
+
++---------------+--------------+
+| name          | CompletedHRS |
++---------------+--------------+
+| Jim Dawson    |           93 |
+| HhrTrKS       |           94 |
+| Alice Bridges |           95 |
+| 8WGS9Gk       |           97 |
+| QxqG2Kv       |           99 |
+| 8AdZ0mO       |          100 |
+| 2z4HWvx       |          102 |
+| EfBQcN8       |          103 |
+| mHb8S29       |          112 |
+| A7gtUcL       |          112 |
+| YMpeuby       |          113 |
+| ZmwwBPL       |          114 |
+| cwsbA3U       |          114 |
+| Taylor Riggs  |          115 |
+| 8IEe3rg       |          115 |
+| Q2pUJCd       |          116 |
+| L2XKBOd       |          120 |
+| 3KUDP9b       |          123 |
+| ThhTmg8       |          123 |
+| OLOtsLO       |          124 |
+| 8l0HP0Y       |          127 |
+| hTmNIxE       |          128 |
+| 0aZUOvm       |          132 |
+| RrEWW1n       |          136 |
+| f196Zv1       |          144 |
+| jJLWm6V       |          146 |
+| KlRjhIq       |          150 |
+| MN7zG4N       |          153 |
+| N7PwrVw       |          155 |
+| s0BXw7F       |          159 |
+| Ev63Ihy       |          163 |
+| hYZ4nly       |          165 |
+| YIIJqXL       |          165 |
+| mDvmlBP       |          166 |
+| b3yyyi4       |          170 |
+| eXbahgo       |          173 |
+| j6FlQWv       |          176 |
+| FjeHMZQ       |          178 |
+| J8NRCbb       |          182 |
+| aoxnR44       |          185 |
+| llwaPFQ       |          186 |
+| 8QT5TNv       |          189 |
+| xvde5wr       |          191 |
+| FqZP9wn       |          195 |
+| McNsHxT       |          201 |
+| ysRccGW       |          202 |
+| ObHGsuZ       |          208 |
+| dbXeeo8       |          212 |
+| XrSBFgX       |          214 |
+| KTK1W95       |          222 |
+| lgLnhbz       |          223 |
+| Ti5663n       |          224 |
+| eXepMU0       |          228 |
+| aR3OI1w       |          230 |
+| rmCnD2H       |          237 |
+| wfQmHRT       |          240 |
+| BOQWZdD       |          241 |
+| mbKuODc       |          247 |
+| hkPBipo       |          252 |
+| FVAzxHr       |          253 |
+| tVE5vYU       |          256 |
+| sSSHCk2       |          257 |
+| OPjP2ca       |          260 |
+| MjkTI8r       |          269 |
+| cQf9NUF       |          270 |
+| s7X86pe       |          277 |
+| hAkSlBM       |          277 |
+| 3TZY1kS       |          281 |
+| OU5KuCd       |          283 |
+| Fc2Qtu7       |          284 |
+| LnjTEhU       |          284 |
+| FlIIa1P       |          285 |
+| QUA5CLS       |          288 |
+| QNXMuHJ       |          288 |
+| 8cvGccL       |          289 |
+| I4e6qkA       |          292 |
+| oqLf5wy       |          297 |
+| DhY0q8q       |          297 |
+| wEWziLZ       |          304 |
+| OZVOZu7       |          305 |
+| iilQgiP       |          309 |
+| NuUgtSh       |          311 |
+| 1ppttVm       |          313 |
+| Y3i1ZvO       |          314 |
+| SSzQ3yX       |          315 |
+| qbWSBFf       |          316 |
+| KdoIXol       |          323 |
+| 3w5nAkN       |          326 |
+| taFU7BP       |          329 |
+| jIbbMuJ       |          334 |
+| 6TWB4yj       |          336 |
+| 6vB4SwD       |          338 |
+| Vmwq5h8       |          339 |
+| 2yU9E7v       |          341 |
+| DURphpT       |          342 |
+| akDNnNf       |          344 |
+| 3L7XfpW       |          347 |
+| SbY8ES5       |          356 |
+| pFDsndN       |          359 |
+| CKiy9rJ       |          360 |
+| UOfpWqk       |          381 |
+| M1hZGx0       |          382 |
+| mlCDyeI       |          386 |
+| Rl7LewF       |          394 |
+| 0qxJT6q       |          395 |
+| WrdgnOM       |          411 |
+| 3mtvfjX       |          412 |
+| 36HWxLR       |          423 |
+| OMJ71yO       |          425 |
+| EGyfTAP       |          429 |
+| 6UC9zxK       |          430 |
+| H9FUQM0       |          432 |
+| S0PZzoA       |          436 |
+| 5TYmj9t       |          437 |
+| dlxt1X0       |          437 |
+| SzAh5l6       |          440 |
+| DbdzIwp       |          441 |
+| HdkYJfj       |          442 |
+| OANXnyH       |          442 |
+| NbYXy6F       |          445 |
+| d1pciNC       |          445 |
+| r7u04Vl       |          457 |
+| T0DDyDT       |          463 |
+| NA9ibFB       |          465 |
+| Flkb69G       |          467 |
+| ZvGJSDy       |          471 |
+| Wqi5iWx       |          471 |
+| 0mADeJb       |          473 |
+| Qyumuyz       |          474 |
+| TjPNQ4j       |          478 |
+| 4FuRsql       |          487 |
+| 1oRI8AF       |          488 |
+| NfTdMjJ       |          490 |
+| PeEbzCv       |          493 |
+| NmX5The       |          493 |
+| 0G1JuvM       |          497 |
+| 3qbB580       |          497 |
+| nGlpM8Q       |          497 |
+| rH4bYhN       |          498 |
+| TrpCoo4       |          504 |
+| G5rapxX       |          508 |
+| sKvbjVk       |          514 |
+| 78urAI8       |          518 |
+| 34vcLQO       |          527 |
+| df58Qoj       |          539 |
+| J009dMP       |          543 |
+| nwVXALE       |          544 |
+| x35Ti6b       |          545 |
+| DGQtM27       |          546 |
+| TX9gmXE       |          553 |
+| fDBIpUV       |          555 |
+| yYN8eMV       |          560 |
+| Aj9UfG4       |          563 |
+| lgXngTV       |          566 |
+| XcMOW0j       |          566 |
+| G1hqSG0       |          570 |
+| mAUUxRm       |          573 |
+| Q4RWL5Z       |          578 |
+| DdBaDT2       |          579 |
+| 4b0FOjx       |          584 |
+| mjCuXKv       |          585 |
+| sCDY1iu       |          586 |
+| 8fu4fas       |          590 |
+| YT0M7XH       |          596 |
+| ZITSBQO       |          598 |
+| XxzMVP6       |          599 |
+| 8YwITDt       |          609 |
+| lRx0fgE       |          613 |
+| aGQhWSB       |          616 |
+| ivZvEhy       |          626 |
+| mx40P55       |          630 |
+| rkRYkaN       |          631 |
+| Po3JLYM       |          631 |
+| NAUR6yF       |          635 |
+| iBBv6Bv       |          637 |
+| kkkJx3Q       |          640 |
+| Yp6mHhX       |          650 |
+| rF4Czbf       |          662 |
+| JKfcaIx       |          667 |
+| uYemU43       |          677 |
+| BTKV9x0       |          682 |
+| 9mtlWsv       |          683 |
+| Qx8GpsH       |          684 |
+| T3aFufP       |          691 |
+| l49natY       |          699 |
+| KYbiNJc       |          700 |
+| LGB3iNz       |          700 |
+| 8xyVRsp       |          706 |
+| Zzc62vE       |          712 |
+| 2yAahWX       |          717 |
+| ahmK83G       |          721 |
+| kh33Hyl       |          723 |
+| jGp5orJ       |          725 |
+| 1Vllo7g       |          727 |
+| GyIq9Tu       |          731 |
+| 3dGdJQS       |          731 |
+| 0qBygTt       |          738 |
+| i8zzZ3d       |          740 |
+| hc1SdUK       |          740 |
+| LTs5JKg       |          741 |
+| SkWLhTG       |          741 |
+| otYx7rT       |          741 |
+| smX2vv4       |          742 |
+| cAAZKoy       |          743 |
+| hQ6zPHL       |          744 |
+| PWHffcE       |          747 |
+| VDwJFUL       |          748 |
+| DDqnUQ5       |          749 |
+| 0gsVu5U       |          749 |
+| WqJTcpy       |          750 |
+| RLqcnAs       |          750 |
+| Kx976ea       |          754 |
+| kqcamZQ       |          755 |
+| exvoJ4B       |          764 |
+| GpQUcb9       |          766 |
+| GoRl1gv       |          768 |
+| AiXpMDV       |          769 |
+| GFW57N9       |          775 |
+| XQdhAvQ       |          776 |
+| LmtQ6IK       |          777 |
+| tJwEXtd       |          783 |
+| aRoPVyy       |          789 |
+| 6kEqmWw       |          791 |
+| 8GoDzJJ       |          791 |
+| DpcRBfp       |          794 |
+| 7NFFDaQ       |          797 |
+| TiY6C7H       |          799 |
+| Wn1qLTF       |          799 |
+| Req2bPw       |          800 |
+| 6r76B11       |          807 |
+| PHdK40z       |          818 |
+| 9WXn71o       |          820 |
+| KDpuqUQ       |          823 |
+| 3rmDEpN       |          825 |
+| UOdScFt       |          834 |
+| vorqvhm       |          838 |
+| ldlOjWg       |          838 |
+| 7XDk1ol       |          839 |
+| KV8d6ls       |          843 |
+| nJl5HdI       |          846 |
+| rapy0WV       |          848 |
+| JyxSBpb       |          848 |
+| 5aB3uJI       |          858 |
+| mwYOIUn       |          864 |
+| gDZalBm       |          868 |
+| VhMnPyh       |          874 |
+| rpVfy7F       |          874 |
+| wUkYn6c       |          883 |
+| FyZkoTe       |          884 |
+| 543f53d       |          884 |
+| eKgvlJK       |          901 |
+| 9Frk8jj       |          905 |
+| USCiRlr       |          905 |
+| FhMPync       |          907 |
+| JJVfkgT       |          910 |
+| SOXrcqV       |          914 |
+| SdK6Ypc       |          919 |
+| nenDeAM       |          920 |
+| ECo2C1R       |          920 |
+| QxhUf0W       |          921 |
+| MfM8GPu       |          922 |
+| 1Bui9fK       |          928 |
+| OJXIDFA       |          928 |
+| EQ4okY0       |          932 |
+| dx5PwVe       |          935 |
+| 36Xivgg       |          936 |
+| hb5hcLc       |          937 |
+| CDNwzbK       |          937 |
+| qtd2xgL       |          939 |
+| qz9ky4e       |          943 |
+| rgIKBnA       |          946 |
+| QSrNqIJ       |          950 |
+| HqBLdwi       |          951 |
+| BiA2DTh       |          952 |
+| RieJnJy       |          958 |
+| SAibylq       |          958 |
+| Gq93XzY       |          958 |
+| fqahZXF       |          959 |
+| 2waAWzJ       |          967 |
+| AX3oEg0       |          971 |
+| Dn8tTwr       |          972 |
+| TcwMEfm       |          977 |
+| BznAjzI       |          978 |
+| FkFd4Hq       |          984 |
+| 82LZiIt       |          986 |
+| 2W4iO1q       |          990 |
+| 5FYuOMk       |          990 |
+| 9SxneCS       |          991 |
+| TrZUfJR       |          992 |
+| k4q3ps3       |         1003 |
+| timxa9n       |         1004 |
+| Y1zN1lB       |         1006 |
+| 6TgBUzW       |         1007 |
+| YYo1Lcm       |         1009 |
+| cnOWt4f       |         1012 |
+| Lhm6ors       |         1012 |
+| PSuxREn       |         1014 |
+| MDhCYuZ       |         1019 |
+| dikAdAs       |         1028 |
+| Y83TK8m       |         1039 |
+| fX75xv3       |         1041 |
+| x42sl4E       |         1045 |
+| JCooHKJ       |         1047 |
+| O4TDm37       |         1054 |
+| XX2JXcG       |         1057 |
+| 5zgPeeK       |         1060 |
+| NF0yw9e       |         1062 |
+| SC0NRcO       |         1064 |
+| s6uy8Xv       |         1065 |
+| 3DU7SNg       |         1065 |
+| JVcJZhm       |         1067 |
+| LqBW99N       |         1071 |
+| 02zMyWc       |         1077 |
+| QFqJM7m       |         1087 |
+| S9oFGgd       |         1088 |
+| NZ3nr0c       |         1097 |
+| Oumo1B2       |         1097 |
+| be8MGSJ       |         1105 |
+| Wnq2iqK       |         1107 |
+| YH2Uqva       |         1110 |
+| rIDheWP       |         1111 |
+| BzBMIcI       |         1115 |
+| d1RVVTt       |         1123 |
+| wQfm0LH       |         1126 |
+| 9zXwtjd       |         1127 |
+| wXltecT       |         1128 |
+| vIstduU       |         1136 |
+| Nqcb82r       |         1139 |
+| V8gUI9m       |         1145 |
+| MauloKm       |         1145 |
+| cSsHkj1       |         1154 |
+| uT143YF       |         1154 |
+| aeC190N       |         1157 |
+| B1GG9Jn       |         1157 |
+| yy4yNmo       |         1160 |
+| nlJWU9L       |         1161 |
+| KXq5Ptz       |         1161 |
+| jpwWwUt       |         1165 |
+| VsdkZtl       |         1166 |
+| zkjf96P       |         1166 |
+| s1Eb7ME       |         1170 |
+| 4JNYTuk       |         1172 |
+| oesnB4m       |         1172 |
+| VLW8X45       |         1173 |
+| 0N9hKkg       |         1177 |
+| BKp9ZLs       |         1179 |
+| je5Ul0f       |         1181 |
+| pLbA2KH       |         1182 |
+| 1FbUywu       |         1185 |
+| wA5HsVa       |         1192 |
+| GIv5hVm       |         1196 |
+| MblAAKA       |         1200 |
+| gClVwxJ       |         1203 |
+| ivhOmeb       |         1204 |
+| 3Ckv83F       |         1206 |
+| AjkSypz       |         1215 |
+| OmYxmOu       |         1222 |
+| M8Qek8Q       |         1233 |
+| faFIkpi       |         1242 |
+| GR4RRP5       |         1243 |
+| NZx8TMk       |         1243 |
+| HXYcUvk       |         1244 |
+| 2ciYHun       |         1246 |
+| WS2qVOw       |         1247 |
+| UDkEg47       |         1247 |
+| jnc7wCm       |         1250 |
+| o1Zt8xF       |         1253 |
+| FjwQWfw       |         1256 |
+| f2U4dIU       |         1257 |
+| OJRGckH       |         1260 |
+| tjHZcqp       |         1262 |
+| HV27tNP       |         1263 |
+| couZ2oH       |         1264 |
+| oUAGBqA       |         1270 |
+| 6vhcIGe       |         1274 |
+| nTOFS82       |         1276 |
+| aGGqDrX       |         1278 |
+| gyLxVOO       |         1279 |
+| AC0SBhq       |         1280 |
+| xyROF5o       |         1286 |
+| Q9be9n6       |         1293 |
+| pCz89XT       |         1295 |
+| EKMEKDE       |         1305 |
+| 0R8QruF       |         1308 |
+| QWATgzI       |         1309 |
+| x59J42a       |         1311 |
+| i0h8nfF       |         1313 |
+| D9AWCB8       |         1314 |
+| seDMBSz       |         1323 |
+| MyHEiyA       |         1326 |
+| IWr4dLx       |         1329 |
+| c958dBi       |         1335 |
+| kfhcGAg       |         1340 |
+| D3xSiBN       |         1350 |
+| cwj3SA0       |         1359 |
+| JWFNyBz       |         1360 |
+| YbXyiO0       |         1363 |
+| IV4yXbt       |         1366 |
+| gZ2ABpD       |         1366 |
+| 8atv8Cj       |         1374 |
+| YhKPfJB       |         1375 |
+| 3y5L05D       |         1377 |
+| OpkOMaw       |         1378 |
+| ndujBJm       |         1382 |
+| i4afOMB       |         1384 |
+| PGLxOUt       |         1385 |
+| LQbf8tb       |         1389 |
+| 0NFkbge       |         1393 |
+| oyO4qie       |         1394 |
+| 3JJkE3h       |         1399 |
+| ZNd2UPR       |         1399 |
+| hc1ZwHX       |         1401 |
+| DSqKymy       |         1406 |
+| LAAMtu6       |         1410 |
+| NShVlQG       |         1413 |
+| 2Zs1CyY       |         1417 |
+| fhHUuhC       |         1423 |
+| XgOJXxJ       |         1427 |
+| N0HjiuG       |         1429 |
+| 4xTnqLx       |         1432 |
+| KdRLPIm       |         1435 |
+| LMKZIzn       |         1445 |
+| xzvRbhh       |         1453 |
+| eg3aXJW       |         1456 |
+| iIhzfiY       |         1459 |
+| wVT6LLu       |         1460 |
+| 6LSudyK       |         1467 |
+| KYe6Vjy       |         1469 |
+| 1FR2wOJ       |         1470 |
+| KH3Pcge       |         1480 |
+| 5BVBwuI       |         1481 |
+| IEyI3L8       |         1487 |
+| udsAK8F       |         1489 |
+| obEDoRX       |         1489 |
+| Ee7iKQe       |         1496 |
+| Yi4pIqG       |         1497 |
+| dBMkvhl       |         1499 |
+| VAR80uK       |         1499 |
+| 7NcWywY       |         1501 |
+| pzXqDbJ       |         1504 |
+| uGLPCIZ       |         1505 |
+| AsuF7CU       |         1506 |
+| WimUu60       |         1511 |
+| XkYjYGH       |         1512 |
+| mWqBlQ9       |         1519 |
+| Urebrj0       |         1521 |
+| cM1fdhR       |         1521 |
+| ddwRr5O       |         1522 |
+| 9URO8lU       |         1525 |
+| ZXKuXPi       |         1526 |
+| bmMK97h       |         1527 |
+| VUc1czE       |         1527 |
+| 8un6Qr4       |         1530 |
+| v0Qi6eY       |         1531 |
+| hIUO4s6       |         1531 |
+| g9qYTNO       |         1535 |
+| YZVpnaO       |         1535 |
+| mljHUBM       |         1539 |
+| NfMhdNR       |         1541 |
+| Zc1g99N       |         1541 |
+| wib560a       |         1541 |
+| Goi3YcG       |         1542 |
+| 9M8xVkp       |         1544 |
+| rCUMDcD       |         1544 |
+| 5woBtFt       |         1548 |
+| SoNuBMq       |         1549 |
+| WKojByB       |         1550 |
+| JR0aWFd       |         1551 |
+| GeFYB2V       |         1557 |
+| ETlFtoB       |         1558 |
+| wp5zgPx       |         1568 |
+| nymphr6       |         1572 |
+| In7H3Kl       |         1572 |
+| 5pVe51g       |         1572 |
+| QtLZK3x       |         1574 |
+| ioSxTg2       |         1578 |
+| 7tCz8ev       |         1583 |
+| 3li4RJ7       |         1589 |
+| r8wFpzb       |         1592 |
+| pHr0EQE       |         1594 |
+| DMOypxr       |         1595 |
+| FLF0AIB       |         1598 |
+| vtza5a6       |         1598 |
+| Odfa551       |         1600 |
+| lNUaVed       |         1606 |
+| 7eWbkuu       |         1607 |
+| RzvyhBw       |         1609 |
+| Oq6Tn69       |         1610 |
+| RWBGZrS       |         1612 |
+| hQoXc5T       |         1615 |
+| 8D5JYLu       |         1617 |
+| doxvw29       |         1617 |
+| WRl94fy       |         1618 |
+| 3OHLUzp       |         1620 |
+| GbotuQQ       |         1621 |
+| PVKbzFd       |         1629 |
+| 4KowdLx       |         1640 |
+| kiTuZ9u       |         1641 |
+| hpyn1GR       |         1641 |
+| pDeJtrK       |         1642 |
+| aRnkHsn       |         1643 |
+| 4JsVb4L       |         1648 |
+| ndiGWvJ       |         1648 |
+| F22d0nX       |         1657 |
+| Zg0R5OW       |         1659 |
+| Jkn5qke       |         1659 |
+| Qtej51y       |         1660 |
+| 2ZOV0Mb       |         1660 |
+| 12BIdTy       |         1670 |
+| RlwbXn4       |         1671 |
+| KnpYG3j       |         1672 |
+| 8DpBsSC       |         1675 |
+| dBX0IG1       |         1678 |
+| vFz1tZd       |         1678 |
+| 34FpbDC       |         1678 |
+| qwaUmMa       |         1679 |
+| gJYe1cq       |         1683 |
+| Mg4jESC       |         1686 |
+| GE5es0L       |         1686 |
+| XvnFtty       |         1693 |
+| CLN0Pd7       |         1693 |
+| lLuIu83       |         1697 |
+| YfKeyUh       |         1698 |
+| RDZuSIM       |         1701 |
+| I8lK5aX       |         1713 |
+| QweswFn       |         1721 |
+| EFovqIH       |         1721 |
+| wJ4k2Lv       |         1721 |
+| vZ2qsJH       |         1721 |
+| 5kjYQmN       |         1722 |
+| mpWuKrI       |         1724 |
+| rQirWxD       |         1725 |
+| RadbLMZ       |         1730 |
+| 63pyteb       |         1737 |
+| HzMEZ2a       |         1740 |
+| Mdly72Y       |         1752 |
+| Ml7kZGx       |         1755 |
+| RxANXsN       |         1757 |
+| eF2lahM       |         1762 |
+| 8s0Zo2p       |         1762 |
+| ld4NB9K       |         1771 |
+| vRRoQKB       |         1774 |
+| 15d6mMX       |         1775 |
+| R6mKIFJ       |         1777 |
+| jo1gwgU       |         1780 |
+| OMKMhbu       |         1780 |
+| w4U9nxp       |         1788 |
+| T21Q62o       |         1794 |
+| Wqbxumm       |         1795 |
+| 8c99VK9       |         1796 |
+| ZOvOpGj       |         1800 |
+| 5TMJrMV       |         1800 |
+| OvlK2jb       |         1800 |
+| EQ59R71       |         1804 |
+| c67wGJq       |         1805 |
+| I0idyGS       |         1805 |
+| qk4T9nD       |         1807 |
+| hr28r0r       |         1809 |
+| hW88gO8       |         1810 |
+| RjHBbBz       |         1815 |
+| gErkCLm       |         1819 |
+| f3CGqRm       |         1823 |
+| Mb8GvB5       |         1826 |
+| WdtrZ86       |         1826 |
+| MXzWjjc       |         1829 |
+| BoBCo2g       |         1831 |
+| gATTLQT       |         1832 |
+| K8WJz96       |         1838 |
+| TISIvAX       |         1848 |
+| L2s3FID       |         1848 |
+| J36976G       |         1854 |
+| jM8124C       |         1854 |
+| HlX42pM       |         1854 |
+| GKkO0XS       |         1854 |
+| Tds6dkf       |         1857 |
+| C4HRolr       |         1860 |
+| WEZIzB8       |         1867 |
+| klfXORO       |         1869 |
+| IMOsMiM       |         1874 |
+| cyeyBge       |         1877 |
+| U3jAONg       |         1880 |
+| ZrezJI8       |         1880 |
+| tOhcHkV       |         1891 |
+| ZkJPe4G       |         1892 |
+| uGXbEWR       |         1894 |
+| XFQ36Av       |         1897 |
+| JygRv43       |         1901 |
+| 5otw7YW       |         1906 |
+| G9f13Wb       |         1908 |
+| KcpcjEM       |         1911 |
+| Ek2wlCE       |         1912 |
+| p9nU7Gm       |         1913 |
+| vJMHdbQ       |         1916 |
+| T1ZuDHO       |         1916 |
+| h2om52d       |         1921 |
+| PTeoYAl       |         1925 |
+| j1ffHbZ       |         1927 |
+| os7gJ4R       |         1929 |
+| 7vUaD5A       |         1930 |
+| QU85Agk       |         1930 |
+| FZTYdCh       |         1930 |
+| Dv1wF4J       |         1931 |
+| N7EiuFI       |         1932 |
+| CU4dSdB       |         1933 |
+| zOBxCoO       |         1933 |
+| ZR5Y4M9       |         1936 |
+| pEzwW8O       |         1942 |
+| iKtbtlX       |         1943 |
+| 68CBt3M       |         1946 |
+| mHQQF9z       |         1946 |
+| HSHNhzQ       |         1947 |
+| doUYPMb       |         1948 |
+| 41YDx3I       |         1948 |
+| n7J1emh       |         1948 |
+| xQQ3DZw       |         1948 |
+| 5ole6Af       |         1949 |
+| jVygq9S       |         1952 |
+| LMq3L5P       |         1958 |
+| bOkq49T       |         1961 |
+| ijw3yCM       |         1968 |
+| AggBfUK       |         1968 |
+| j03EjmC       |         1969 |
+| csjI772       |         1982 |
+| rt9hWCC       |         1985 |
+| E4fBTvs       |         1986 |
+| n72C93b       |         1986 |
+| RbGLWL5       |         1990 |
+| bDxXu2u       |         1991 |
+| xIaiV2U       |         1995 |
+| AfVXpC0       |         1999 |
+| 6PI0PBb       |         2002 |
+| 2EFR5Wn       |         2005 |
+| TV5gw2x       |         2009 |
+| MGQThDu       |         2009 |
+| b2Q8hrR       |         2012 |
+| ENk6qZc       |         2013 |
+| a5cjRrm       |         2017 |
+| PczwFLc       |         2018 |
+| m5p4pqX       |         2019 |
+| u3FyJuj       |         2019 |
+| zBBgQsN       |         2023 |
+| lNmM197       |         2024 |
+| aWVnUrR       |         2025 |
+| AWgH8ts       |         2031 |
+| xxEa9tD       |         2035 |
+| y8wgSgk       |         2036 |
+| 71lwyuR       |         2037 |
+| SDkWWAK       |         2040 |
+| tmrWJl8       |         2044 |
+| y5LXzxA       |         2053 |
+| 1jvPjl9       |         2056 |
+| sLwuUiy       |         2067 |
+| Oy4mmO6       |         2072 |
+| BvNDsFK       |         2077 |
+| Zp2E4DK       |         2077 |
+| 7DOdzg4       |         2077 |
+| TPcSRWP       |         2084 |
+| 3x5UXMH       |         2084 |
+| MMTjfcV       |         2086 |
+| Q2a0I3J       |         2090 |
+| 30bvZLr       |         2093 |
+| nco3ekB       |         2095 |
+| NPzl9PI       |         2096 |
+| DiuFfH1       |         2097 |
+| EBYvawg       |         2101 |
+| 88WfFoF       |         2102 |
+| CHuHY3q       |         2103 |
+| sIltXuA       |         2109 |
+| RA6D02R       |         2113 |
+| db2SkPl       |         2113 |
+| Rg01X09       |         2117 |
+| cDt3jkA       |         2119 |
+| QPl7dB2       |         2120 |
+| 9o0NISt       |         2125 |
+| QYKiPV9       |         2125 |
+| GuTXf1r       |         2126 |
+| vzYHw3x       |         2130 |
+| lecJtiQ       |         2133 |
+| 86jelRx       |         2139 |
+| YywjJLp       |         2143 |
+| iGd7tZZ       |         2143 |
+| t7fCVmX       |         2145 |
+| GOwHt8S       |         2153 |
+| 0fZwjyq       |         2154 |
+| oc17Zai       |         2158 |
+| ODYvMtW       |         2158 |
+| jVqrBZg       |         2158 |
+| mTTT6bI       |         2158 |
+| 3o8CRDt       |         2159 |
+| EHk939q       |         2161 |
+| yKBJibw       |         2168 |
+| sqgeX78       |         2169 |
+| SHZs0RP       |         2174 |
+| CnXaWaA       |         2179 |
+| gK5DSbX       |         2180 |
+| zZjhaBn       |         2181 |
+| D9iqrZu       |         2184 |
+| ehudnhf       |         2185 |
+| ZP6qS2C       |         2189 |
+| a5Pxq67       |         2191 |
+| nfEwpd8       |         2191 |
+| B3YH5Vq       |         2200 |
+| WKRQQzo       |         2200 |
+| Q3VevA8       |         2201 |
+| 3WgViUx       |         2209 |
+| n3H7y3S       |         2214 |
+| sT9qkKg       |         2220 |
+| SXD1rcK       |         2227 |
+| wSSZM7q       |         2231 |
+| 9HCA9z4       |         2237 |
+| gxTcJmT       |         2238 |
+| uQLUFE4       |         2239 |
+| 7Ejikfp       |         2240 |
+| r3XoLG3       |         2241 |
+| dhEWnSY       |         2243 |
+| u9iEck7       |         2244 |
+| xcntYfZ       |         2244 |
+| hRlQPnj       |         2250 |
+| 6CTxy35       |         2251 |
+| 5vgTn9l       |         2255 |
+| vYaOiGd       |         2258 |
+| TuVSyWW       |         2259 |
+| DqmoVPI       |         2262 |
+| eG1FXGY       |         2262 |
+| FvI7gWC       |         2263 |
+| QwrGNMc       |         2266 |
+| s6BZVQs       |         2267 |
+| RLESvoY       |         2272 |
+| 8VmcYvC       |         2278 |
+| zg9x2DK       |         2278 |
+| fPWJYBj       |         2280 |
+| kFkzdKT       |         2283 |
+| VCoWgqr       |         2285 |
+| M6Dh3bM       |         2287 |
+| 8XRCCbB       |         2289 |
+| ccMdk9i       |         2289 |
+| 0DS51lu       |         2289 |
+| kEwrXDb       |         2290 |
+| tV20ERt       |         2294 |
+| j6SyJLC       |         2295 |
+| htKrPEn       |         2298 |
+| 6M66RT9       |         2301 |
+| fohOYIY       |         2303 |
+| 2bi1eni       |         2313 |
+| dr2pLqJ       |         2313 |
+| KpJxuVu       |         2324 |
+| ZaT8WFO       |         2326 |
+| IQ3m64c       |         2327 |
+| BQKL9bi       |         2331 |
+| nUkFVln       |         2331 |
+| etk08we       |         2332 |
+| n7cB75s       |         2337 |
+| lG85clU       |         2345 |
+| 0jRxaLW       |         2347 |
+| NncxUuo       |         2350 |
+| RMwDyKe       |         2352 |
+| j6O1D3m       |         2368 |
+| EgvFfoQ       |         2368 |
+| LtOkz8u       |         2369 |
+| 4bGcYQv       |         2375 |
+| LY54O5O       |         2384 |
+| 90qF5t3       |         2387 |
+| e0C9VO0       |         2390 |
+| amR70UD       |         2392 |
+| uOratJz       |         2392 |
+| zURn8lc       |         2395 |
+| ql8r8hK       |         2395 |
+| vZCZaTz       |         2396 |
+| gUFmGOo       |         2399 |
+| I7oHa57       |         2400 |
+| IIuCEPe       |         2402 |
+| z6HtVBW       |         2407 |
+| uZG9H0d       |         2408 |
+| yW2RfnQ       |         2411 |
+| ErcXnNf       |         2411 |
+| dum4qDT       |         2411 |
+| rRrJUDV       |         2414 |
+| Alz1PgR       |         2422 |
+| pnEBcDW       |         2424 |
+| y5dZ4yR       |         2428 |
+| CqTYODH       |         2444 |
+| 5VK3ufz       |         2448 |
+| Rc1uw2G       |         2449 |
+| JUJT8wX       |         2451 |
+| fSN1SkG       |         2453 |
+| AK6OoG9       |         2457 |
+| OC7sTTC       |         2459 |
+| DuXDDXk       |         2463 |
+| RGgQZ4p       |         2465 |
+| bbJU094       |         2467 |
+| 5YE3YWs       |         2467 |
+| kikMp0v       |         2467 |
+| cZBFXO6       |         2469 |
+| q1vKRpH       |         2470 |
+| f6AcwQW       |         2475 |
+| iwaq8J5       |         2475 |
+| kaimRg5       |         2477 |
+| WOe11xD       |         2478 |
+| Lz1nrzf       |         2479 |
+| MJq5V1o       |         2483 |
+| e47NwDH       |         2484 |
+| kn6H0QJ       |         2489 |
+| GPWHLTV       |         2491 |
+| inmR5B5       |         2492 |
+| sdbsItl       |         2494 |
+| eQeaqP4       |         2495 |
+| vO7fcTM       |         2498 |
+| 2zrdMCK       |         2502 |
+| zdNMK66       |         2503 |
+| extBulG       |         2503 |
+| rdIRQQr       |         2503 |
+| 95cew68       |         2504 |
+| fYtVJOO       |         2506 |
+| ly1zJvp       |         2513 |
+| TJePFIX       |         2513 |
+| AAXtARb       |         2514 |
+| lmM09M8       |         2515 |
+| DjN2PTc       |         2519 |
+| zbAcoLw       |         2521 |
+| bfEdJD1       |         2526 |
+| dosiSH1       |         2537 |
+| aX4lwKD       |         2539 |
+| RCmDHAc       |         2540 |
+| FeIt1GD       |         2546 |
+| ls4xnGk       |         2551 |
+| UEzWGKu       |         2553 |
+| VvL2kEW       |         2555 |
+| 2rBhxdH       |         2555 |
+| TM4EWx9       |         2560 |
+| 7Qj2f3w       |         2562 |
+| HWIq24h       |         2563 |
+| UJMu8cf       |         2564 |
+| 9KasHGn       |         2565 |
+| YjaLFBs       |         2567 |
+| 9H7HPQE       |         2567 |
+| Rv4TVFg       |         2570 |
+| BCpBLQ5       |         2583 |
+| vAQLhUf       |         2584 |
+| 2guy3uB       |         2594 |
+| 4fBDoyb       |         2595 |
+| oMJe1cC       |         2596 |
+| lUmlLFb       |         2600 |
+| X694b6N       |         2601 |
+| W5B4pO7       |         2603 |
+| ZSbJWNU       |         2607 |
+| TKeE5SF       |         2617 |
+| i2lhhhy       |         2617 |
+| EjFng27       |         2618 |
+| KmQp1ac       |         2622 |
+| uHia61d       |         2623 |
+| cfu84g2       |         2626 |
+| oTH0Kn7       |         2629 |
+| hrfHePd       |         2633 |
+| vq215T1       |         2634 |
+| UWl5cKd       |         2637 |
+| vGU3hzu       |         2639 |
+| i0oQHHg       |         2641 |
+| SZFbB2a       |         2643 |
+| ZpERgMM       |         2647 |
+| bHixAEh       |         2647 |
+| nKm19qC       |         2655 |
+| D1JXm6N       |         2655 |
+| ktDtEzr       |         2663 |
+| 5UHBzBo       |         2667 |
+| 9nhAYn0       |         2667 |
+| e1RmzON       |         2670 |
+| dMq0xXs       |         2673 |
+| 1fOxXAN       |         2674 |
+| lAzACK0       |         2680 |
+| OoaFsjw       |         2680 |
+| Mqp1uIO       |         2685 |
+| rQ8NZJi       |         2688 |
+| y9Tezyc       |         2688 |
+| RkcMIxg       |         2690 |
+| CL4NTmN       |         2693 |
+| 6LfVGlf       |         2694 |
+| dlImLTh       |         2697 |
+| lv8EW4q       |         2712 |
+| PqcTIUd       |         2713 |
+| 6A0ETHn       |         2716 |
+| jZC90e6       |         2717 |
+| 6EncZgW       |         2719 |
+| R391UXa       |         2720 |
+| TlBCISm       |         2728 |
+| 01vOzwv       |         2728 |
+| spuwWlH       |         2733 |
+| VmktA2O       |         2734 |
+| ISlyH4G       |         2737 |
+| S0hoI6p       |         2742 |
+| EvSsRGR       |         2745 |
+| pI6rmRd       |         2746 |
+| ygWNRGs       |         2748 |
+| mlfOsiZ       |         2759 |
+| ZLbjBtF       |         2766 |
+| Oi1SFSF       |         2768 |
+| 04IVK7a       |         2769 |
+| zXuR9Fv       |         2770 |
+| A4bZvBh       |         2778 |
+| uuH4R6s       |         2779 |
+| 2qfhdtD       |         2784 |
+| GL9rKh7       |         2786 |
+| amSKK0k       |         2786 |
+| xDpRFhn       |         2792 |
+| dMVz8Ve       |         2798 |
+| BivzKLa       |         2802 |
+| k47vbwH       |         2802 |
+| e5OXvSp       |         2802 |
+| hjIzo2N       |         2804 |
+| wCGxncE       |         2806 |
+| bVBX2XN       |         2810 |
+| yJk3MkL       |         2813 |
+| JdM1gHh       |         2817 |
+| TqKJ1zr       |         2817 |
+| mITBDj4       |         2821 |
+| 7Dc1VyK       |         2821 |
+| edUaaQh       |         2821 |
+| Hulm4KH       |         2822 |
+| 0f3rz5Y       |         2824 |
+| sYKbDbr       |         2824 |
+| eWxnctd       |         2830 |
+| MTdGdZf       |         2833 |
+| DIUB2uF       |         2834 |
+| JG1SLwy       |         2834 |
+| xuHTKyC       |         2834 |
+| dc1Rrk7       |         2837 |
+| MFOKmSu       |         2839 |
+| GeGb6zZ       |         2840 |
+| 35yqtkC       |         2842 |
+| kjCJklY       |         2843 |
+| wNK44uW       |         2844 |
+| 3RvErlw       |         2847 |
+| bP2eJ2i       |         2854 |
+| Kn8nfOj       |         2856 |
+| VwBuvHa       |         2858 |
+| LtB00QA       |         2862 |
+| Lnppor3       |         2865 |
+| LnhPEkA       |         2871 |
+| JU1Nsdt       |         2872 |
+| ALNKfDz       |         2872 |
+| Jz6mYIJ       |         2874 |
+| jRgs2Rp       |         2877 |
+| P2URuuO       |         2881 |
+| 6dKJzs8       |         2886 |
+| 9ZvcBP2       |         2887 |
+| PhFi8K4       |         2892 |
+| 0UpHlvb       |         2893 |
+| iHpcOiX       |         2893 |
+| LocKcre       |         2895 |
+| AR5YNVu       |         2896 |
+| aXaJaHJ       |         2896 |
+| G8T1EIV       |         2897 |
+| 8SVALjL       |         2906 |
+| AZitw2E       |         2909 |
+| WYkxZG6       |         2914 |
+| VgFj41B       |         2915 |
+| MluJbhn       |         2928 |
+| Mg4I5i8       |         2928 |
+| dxmvuqZ       |         2933 |
+| br6lhHP       |         2935 |
+| TJ0YISH       |         2936 |
+| XBESX4l       |         2941 |
+| J4l6vlt       |         2947 |
+| 68Ik5wF       |         2948 |
+| DBF8HUx       |         2948 |
+| e2wABGE       |         2956 |
+| oRAzGv4       |         2958 |
+| piGvKEA       |         2958 |
+| WVIgLxA       |         2959 |
+| ranp1VP       |         2959 |
+| eYObfzG       |         2972 |
+| PV3xHvh       |         2973 |
+| uWwkiQy       |         2980 |
+| lNuJonP       |         2980 |
+| EoDZzu2       |         2986 |
+| WD2IrOz       |         2993 |
+| Rw2Go6E       |         2995 |
+| ilRgwxI       |         2999 |
++---------------+--------------+
+977 rows in set (0.02 sec)
+
++--------------------+
+| position           |
++--------------------+
+| srCTR2TP           |
+| sDRtj0DS           |
+| s83M9mx1           |
+| Sranp1VP           |
+| SBWPa3Eg           |
+| sKfy99zX           |
+| S06dwjOO           |
+| swFnJqon           |
+| SOjKy81s           |
+| SxjOvPHK           |
+| SxjvWAW7           |
+| syr9Sxne           |
+| S8MQVSSR           |
+| S6PUjEoD           |
+| sqwUHq3G           |
+| sjNc3p5f           |
+| SwkeeJyg           |
+| SZY8un6Q           |
+| S4msj1Ec           |
+| sfzKSIRL           |
+| SFGVgFj4           |
+| sl4Eu1ho           |
+| s58prfpx           |
+| Student Worker III |
+| SCsk6Bp7           |
+| SLwycK6N           |
+| SswPy8V5           |
+| sNWwD6Vw           |
+| S5oTu8tb           |
+| SJHfxrdz           |
+| Student Worker II  |
+| Student Worker I   |
++--------------------+
+32 rows in set (0.00 sec)
+
++------------+
+| AVG Salary |
++------------+
+| 48.60      |
++------------+
+1 row in set (0.00 sec)
+
