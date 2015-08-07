@@ -5,7 +5,7 @@ import java.util.*;
 
 public class jdbc {
 
-	public static void printMenu()
+	public static void printMenu()//basic layout for root menu
 	{
 
 		System.out.println("1. Simple Query");
@@ -23,14 +23,15 @@ public class jdbc {
 		try
 		{
 			//   jdbc:mysql://localhost/test?user=testuser&password=testpass
-			String url = "jdbc:mysql://database2.cs.tamu.edu/ambago-db1?user=ambago&password=fishandchips";
+			String url = "jdbc:mysql://database2.cs.tamu.edu/ambago-db1?user=ambago&password=fishandchips";//log in to db server
+			//using user name ambago and password fishandchips
 			Class.forName ("com.mysql.jdbc.Driver").newInstance ();
-			conn = DriverManager.getConnection (url);            
+			conn = DriverManager.getConnection (url); //establishing connection   
 			System.out.println ("Database connection established");
 
 		}
 		catch (Exception e)
-		{
+		{//error handling in case connection can't be established
 			System.err.println ("Cannot connect to database server");
 			System.out.println("Connection Issue: " + e.getMessage());
 		} 
@@ -38,24 +39,24 @@ public class jdbc {
 		return conn;
 	}
 
-	static void avgCompHrs (Connection conn) {
+	static void avgCompHrs (Connection conn) {//function to return average completed hours from table Student
 		Statement s;
 		try {
 			s = conn.createStatement ();
 
-			s.executeQuery ("SELECT ROUND(AVG(CompletedHRS),0) AS \'compHRS\' FROM Student;");
-			ResultSet rs = s.getResultSet ();
+			s.executeQuery ("SELECT ROUND(AVG(CompletedHRS),0) AS \'compHRS\' FROM Student;");//The SQL statement
+			ResultSet rs = s.getResultSet ();//get result of query 
 
 			int count = 0;
 			while (rs.next ())
 			{
-				int idVal = rs.getInt ("compHRS");
+				int idVal = rs.getInt ("compHRS");//set the average to int idval
 
 				System.out.println ("\nAverage Completed HRS \n" + idVal);
 				++count;
 			}
 
-			rs.close ();
+			rs.close ();//close the result set
 			s.close ();
 			System.out.println ("\n" + count + " rows were retrieved");
 		} catch (SQLException e) {
@@ -65,13 +66,13 @@ public class jdbc {
 
 	}
 
-	static void employedSeniors (Connection conn) {
+	static void employedSeniors (Connection conn) {//function to return names of employed seniors
 		Statement s;
 		try {
 			s = conn.createStatement ();
 
-			s.executeQuery ("SELECT Name AS \'Employed Seniors\' FROM Employee"
-					+ " WHERE Employee.name IN (SELECT Name "
+			s.executeQuery ("SELECT Name AS \'Employed Seniors\' FROM Employee"//sending the advanced
+					+ " WHERE Employee.name IN (SELECT Name "//query statement
 					+ " FROM Student "
 					+ " WHERE CompletedHRS >=90 AND CompletedHRS <= 120);");
 
@@ -80,11 +81,11 @@ public class jdbc {
 			int count = 0;
 			System.out.println ("\nEmployed Seniors");
 
-			while (rs.next ())
+			while (rs.next ())//while there are still elements in the result set
 			{
 				String idVal = rs.getString("Employed Seniors");
 
-				System.out.println (idVal);
+				System.out.println (idVal); //print out names under column "employed seniors"
 				++count;
 			}
 
@@ -103,24 +104,26 @@ public class jdbc {
 		PreparedStatement s = null;
 
 		try {
-			if (TableName == "College"){
+			if (TableName == "College"){ //insert to table College
 				s = conn.prepareStatement ("INSERT INTO " + TableName + "(Name, NumFacultyMembers, NumStudents )" + " VALUES(?,?,?)");
-				s.setString (1, value[0]);
+				//send insert modification in SQL language. Notice use of placeholders
+				s.setString (1, value[0]);//1st element of user input to be put in placeholder value
 				s.setInt (2, Integer.parseInt(value[1]));
 				s.setInt (3, Integer.parseInt(value[2]));
 
 			} else if (TableName == "FinancialPackage") {
 				s = conn.prepareStatement ("INSERT INTO " + TableName + "(PackageID, TotalAwardAmount)" + " VALUES(?,?)");
+				//send insert modification in SQL language. Notice use of placeholders
 				s.setInt (1, Integer.parseInt(value[0]));
-				s.setInt (2, Integer.parseInt(value[1]));
+				s.setInt (2, Integer.parseInt(value[1]));//user input to be put in placeholder value
 
 			} else {
-				System.out.println("Table Name was not recognized!");
+				System.out.println("Table Name was not recognized!");//error handling
 				return;
 			}
 
-			int count = s.executeUpdate ();
-			s.close ();
+			int count = s.executeUpdate ();//execute query
+			s.close ();//close statement
 			System.out.println (count + " rows were inserted");
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -135,29 +138,29 @@ public class jdbc {
 		try {
 
 			if (TableName == "College"){
-				if(attribute == "Name"){
-					s = conn.prepareStatement("UPDATE College "
-							+ "SET Name = ? "
+				if(attribute == "Name"){//update using name attribute of table college
+					s = conn.prepareStatement("UPDATE College "//update sql statement
+							+ "SET Name = ? "//using placeholders
 							+ "WHERE Name = ?;") ;
-					s.setString(1, set);
+					s.setString(1, set);//use user input to placeholder value
 					s.setString(2, where);
 
 				} 
 
-				else if(attribute == "NumFacultyMembers"){
+				else if(attribute == "NumFacultyMembers"){//update using numfacultymembers attribute of table college
 
-					s = conn.prepareStatement("UPDATE College "
-							+ "SET NumFacultyMembers = ? "
-							+ "WHERE NumFacultyMembers = ?;") ;
-					s.setInt(1, Integer.parseInt(set));
+					s = conn.prepareStatement("UPDATE College "//update sql statement
+							+ "SET NumFacultyMembers = ? "//using placeholders
+							+ "WHERE NumFacultyMembers = ?;");
+					s.setInt(1, Integer.parseInt(set));//use user input to placeholder value
 					s.setInt(2, Integer.parseInt(where));
 				}
 
-				else if(attribute == "NumStudents"){
-					s = conn.prepareStatement("UPDATE College "
-							+ "SET NumStudents = ? "
+				else if(attribute == "NumStudents"){//update using numstudents attribute of table college
+					s = conn.prepareStatement("UPDATE College "//update sql statement
+							+ "SET NumStudents = ? "//using placeholders
 							+ "WHERE NumStudents = ?;") ;
-					s.setInt(1, Integer.parseInt(set));
+					s.setInt(1, Integer.parseInt(set));//use user input to placeholder value
 					s.setInt(2, Integer.parseInt(where));
 				} 
 				else {
@@ -166,14 +169,14 @@ public class jdbc {
 
 
 			} else if (TableName == "FinancialPackage") {
-				if(attribute == "PackageID"){
+				if(attribute == "PackageID"){//update using packageID attribute of table financial package
 					s = conn.prepareStatement("UPDATE FinancialPackage "
 							+ "SET PackageID = ? "
 							+ "WHERE PackageID = ?;") ;
 					s.setInt(1, Integer.parseInt(set));
 					s.setInt(2, Integer.parseInt(where));
 				}
-				else if(attribute == "TotalAwardAmount"){
+				else if(attribute == "TotalAwardAmount"){//update using totalawardamount attribute of table financial package
 					s = conn.prepareStatement("UPDATE FinancialPackage "
 							+ "SET TotalAwardAmount = ? "
 							+ "WHERE TotalAwardAmount = ?;") ;
@@ -199,50 +202,49 @@ public class jdbc {
 
 
 
-	static void delTuple (Connection conn, String TableName, String attribute, String value) {
+	static void delTuple (Connection conn, String TableName, String attribute, String value) {//delete tuple option
 
 		PreparedStatement s = null;
 		try {
 
 			if (TableName == "College"){
-				if(attribute == "Name"){
-					s = conn.prepareStatement("DELETE FROM College "
-							+ "WHERE Name = ?;") ;
-					s.setString(1, value);
+				if(attribute == "Name"){//delete using name attribute of table college
+					s = conn.prepareStatement("DELETE FROM College "//Delete SQL statement
+							+ "WHERE Name = ?;") ;//using placeholders
+					s.setString(1, value);//use user input for placeholder value
 
 				} 
 
-				else if(attribute == "NumFacultyMembers"){
-
+				else if(attribute == "NumFacultyMembers"){//delete using numfacultymember attribute of table college
 					s = conn.prepareStatement("DELETE FROM College "
 							+ "WHERE NumFacultyMembers = ?;") ;
 					s.setInt(1, Integer.parseInt(value));
 				}
 
-				else if(attribute == "NumStudents"){
+				else if(attribute == "NumStudents"){//delete using numstudents attribute of table college
 					s = conn.prepareStatement("DELETE FROM College "
 							+ "WHERE NumStudents = ?;") ;
 					s.setInt(1, Integer.parseInt(value));
 				} 
 				else {
-					System.out.println("Attribute Name was not recognized!");
+					System.out.println("Attribute Name was not recognized!");//error handling
 				}
 
 
 			} else if (TableName == "FinancialPackage") {
-				if(attribute == "PackageID"){
+				if(attribute == "PackageID"){//delete using packageID attribute of table financialpackage
 					s = conn.prepareStatement("DELETE FROM FinancialPackage "
 							+ "WHERE PackageID = ?;") ;
 					s.setInt(1, Integer.parseInt(value));
 				}
-				else if(attribute == "TotalAwardAmount"){
+				else if(attribute == "TotalAwardAmount"){//delete using totalawardamount attribute of table financialpackage
 					s = conn.prepareStatement("DELETE FROM FinancialPackage "
 							+ "WHERE TotalAwardAmount = ?;") ;
 					s.setInt(1, Integer.parseInt(value));
 				}
 
 			} else {
-				System.out.println("Table Name was not recognized!");
+				System.out.println("Table Name was not recognized!");//handling for incorrect table input
 				return;
 
 			}
@@ -292,32 +294,32 @@ public class jdbc {
 
 			if(num == 3)		//UPDATE
 			{
-				System.out.println("Which relation would you like to Update?");
-				System.out.println("1. College");
+				System.out.println("Which relation would you like to Update?");//prompt user to choose
+				System.out.println("1. College");//which table to update
 				System.out.println("2. Financial Package");
 				System.out.print("User input: ");
 				int numUpdate = in.nextInt();
 
-				if(numUpdate == 1)
+				if(numUpdate == 1)//update table college
 				{
 					System.out.println("Which attribute would you like to update?");
-					System.out.println("1. Name");
+					System.out.println("1. Name");//attributes to update in table college
 					System.out.println("2. NumFacultyMembers");
 					System.out.println("3. NumStudents");
 					System.out.print("User input: ");
 					int numAttr = in.nextInt();
 
-					if(numAttr == 1)
+					if(numAttr == 1)//update name in table college
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input old value for attribute: \n");
 						String oldValue = input.nextLine();
 						System.out.print("Input new value for attribute: \n");
 						String newValue = input.nextLine();
-						updateTuple (conn, "College", "Name", newValue, oldValue);		
+						updateTuple (conn, "College", "Name", newValue, oldValue);//update tuple function		
 					}
 
-					if(numAttr == 2)
+					if(numAttr == 2)//update numfacultymembers in table college
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input old value for attribute: \n");
@@ -328,7 +330,7 @@ public class jdbc {
 
 					}
 
-					if(numAttr == 3)
+					if(numAttr == 3)//update numstudents in table college
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input old value for attribute: \n");
@@ -340,17 +342,17 @@ public class jdbc {
 
 				}
 
-				if(numUpdate == 2)
+				if(numUpdate == 2)//update table financialpackage
 				{
 					System.out.println("Which attribute would you like to update?");
-					System.out.println("");
+					System.out.println("");//attributes to update in financialpackage
 					System.out.println("1. PackageID");
 					System.out.println("2. TotalAwardAmount");
 					System.out.println("");
 					System.out.print("User input: ");
 					int numAttr2 = in.nextInt();
 
-					if(numAttr2 == 1)
+					if(numAttr2 == 1)//update packageID in table financialpackage
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input old value for attribute: \n");
@@ -361,7 +363,7 @@ public class jdbc {
 
 					}
 
-					if(numAttr2 == 2)
+					if(numAttr2 == 2)//update totalawardamount in table financial package
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input old value for attribute: \n");
@@ -389,7 +391,7 @@ public class jdbc {
 				System.out.print("User input: ");
 				int numInsert = in.nextInt();
 
-				if(numInsert == 1)
+				if(numInsert == 1)//insert into table college
 				{
 					System.out.print("Input new tuple seperated by space: \n");
 					System.out.print("College(Name, Numfaculty, NumStudents) \n");
@@ -397,13 +399,13 @@ public class jdbc {
 					Scanner input = new Scanner(System.in);
 					String temp = input.nextLine();
 
-					String[] elements = temp.split("\\s");
-
-					addTuple (conn, "College", elements);
+					String[] elements = temp.split("\\s");//split user input to 
+					//use as a new tuple's attributes
+					addTuple (conn, "College", elements);//addtuple function
 
 				}
 
-				if(numInsert == 2)
+				if(numInsert == 2)//insert into table financialpackage
 				{
 					System.out.print("Input new tuple seperated by space: \n");
 					System.out.print("FinancialPackage(PackageID, TotalAwardAmount) \n");	
@@ -429,20 +431,20 @@ public class jdbc {
 			{
 
 				System.out.println("Which relation would you like to Delete from?");
-				System.out.println("1. College");
+				System.out.println("1. College");//delete from college
 				System.out.print("User input: ");
 				int numUpdate = in.nextInt();
 
 				if(numUpdate == 1)
 				{
 					System.out.println("Which attribute would you like to use as the Delete condition?");
-					System.out.println("1. Name");
+					System.out.println("1. Name");//attributes to delete from college
 					System.out.println("2. NumFacultyMembers");
 					System.out.println("3. NumStudents");
 					System.out.print("User input: ");
 					int numAttr = in.nextInt();
 
-					if(numAttr == 1)
+					if(numAttr == 1)//delete using the name attribute from table college
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input the value for attribute condition: \n");
@@ -451,7 +453,7 @@ public class jdbc {
 						delTuple (conn, "College", "Name", deleteCondition);		
 					}
 
-					if(numAttr == 2)
+					if(numAttr == 2)//delete using the numfacultymembers attribute from table college
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input the value for attribute condition: \n");
@@ -461,7 +463,7 @@ public class jdbc {
 
 					}
 
-					if(numAttr == 3)
+					if(numAttr == 3)//delete using the numstudents attribute from table college
 					{
 						Scanner input = new Scanner(System.in);
 						System.out.print("Input the value for attribute condition: \n");
@@ -512,7 +514,7 @@ public class jdbc {
 				{
 					try
 					{
-						conn.close ();
+						conn.close ();//close the connection
 						System.out.println ("Database connection terminated");
 					}
 					catch (Exception e) { /* ignore close errors */ }
